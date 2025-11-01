@@ -1,0 +1,550 @@
+Patient_ID,Name,Age,Gender,Department,Doctor,Admission_Date,Discharge_Date,Bill_Amount,Room_No,Feedback,Contact_No,City,Status
+P001,Farhan,46.0,F,Orthopedics,Dr. Rao,,2023-06-01,29911.5,109.0,Exellent,Unknown,Nagpur,Discharged
+P002,Neha,46.0,F,Cardiology,Dr. Mehta,2023-12-11,,29911.5,109.0,Excellent,9876543210.0,Nagpur,Admitted
+P003,Rohit,63.0,M,Neurology,Dr. Rao,2023-12-29,,29911.5,109.0,Good,Unknown,Nagpur,Admitted
+P004,Ali,46.0,F,Cardiology,Dr. Mehta,,,29911.5,109.0,Exellent,9876543210.0,Delhi,Discharged
+P005,Manoj,46.0,M,Gynecology,Dr. Singh,2023-12-20,,29911.5,109.0,Excellent,9876543210.0,Nagpur,Discharged
+P006,Manoj,21.0,F,Cardiology,Dr. Rao,,,9643.0,276.0,Good,Unknown,Delhi,Discharged
+P007,Rohit,46.0,F,Orthopedics,Dr. Mehta,,,29911.5,109.0,Exellent,Unknown,Pune,Discharged
+P008,Vikas,46.0,F,Orthopedics,Dr. Singh,2023-11-18,,29911.5,109.0,Good,976543210.0,Nagpur,Discharged
+P009,Priya,46.0,F,Dermatology,Dr. Mehta,,,20797.0,109.0,Unknown,Unknown,Delhi,Inpatient
+P010,Priya,46.0,M,Gynecology,Dr. Rao,2023-01-27,,29957.0,109.0,Exellent,Unknown,Mumbai,Inpatient
+P011,Raj Sharma,46.0,F,Neurology,Dr. Mehta,2023-07-12,,29911.5,109.0,Unknown,Unknown,Nagpur,Admitted
+P012,Manoj,46.0,M,Gynecology,Dr. Singh,,,29911.5,109.0,Good,976543210.0,Pune,Discharged
+P013,Vikas,46.0,F,Orthopedics,Dr. Sharma,,,11899.0,143.0,Good,9876543210.0,Mumbai,Discharged
+P014,S. Patel,46.0,M,Dermatology,Dr. Rao,,,36519.0,109.0,Excellent,9876543210.0,Nagpur,Discharged
+P015,Aisha Khan,46.0,F,Cardiology,Dr. Singh,2023-12-08,,47579.0,109.0,Exellent,9876543210.0,Mumbai,Discharged
+P016,Reena,43.0,M,Gynecology,Dr. Iyer,2023-07-07,,40525.0,109.0,Excellent,Unknown,Delhi,Inpatient
+P017,Manoj,46.0,M,Orthopedics,Dr. Mehta,,,10152.0,109.0,Average,9988776655.0,Mumbai,Admitted
+P018,Sonal,62.0,M,Gynecology,Dr. Rao,,,21387.0,109.0,Excellent,Unknown,Delhi,Discharged
+P019,Manoj,46.0,M,Orthopedics,Dr. Sharma,2023-06-11,2023-04-21,14531.0,396.0,Average,976543210.0,Delhi,Inpatient
+P020,Vikas,46.0,M,Neurology,Dr. Mehta,2023-06-09,,35034.0,109.0,Good,976543210.0,Nagpur,Inpatient
+P021,Meena,60.0,M,Gynecology,Dr. Mehta,,,22260.0,109.0,Unknown,Unknown,Nagpur,Inpatient
+P022,Neha,46.0,M,Cardiology,Dr. Iyer,,,29911.5,109.0,Unknown,Unknown,Nagpur,Inpatient
+P023,Aisha Khan,46.0,M,Orthopedics,Dr. Iyer,,,29911.5,109.0,Excellent,Unknown,Delhi,Inpatient
+P024,Sonal,46.0,M,Cardiology,Dr. Sharma,2023-12-27,,29911.5,109.0,Excellent,9988776655.0,Pune,Admitted
+P025,Priya,41.0,M,Dermatology,Dr. Sharma,,,47244.0,109.0,Exellent,Unknown,Mumbai,Admitted
+P026,Pooja,46.0,F,Orthopedics,Dr. Singh,2023-02-13,,29911.5,352.0,Good,9876543210.0,Delhi,Inpatient
+P027,Vikas,46.0,M,Neurology,Dr. Singh,,,9346.0,183.0,Good,976543210.0,Nagpur,Discharged
+P028,Vikas,46.0,F,Dermatology,Dr. Singh,,,29911.5,109.0,Unknown,976543210.0,Nagpur,Admitted
+P029,Sara,46.0,F,Cardiology,Dr. Singh,,,29911.5,109.0,Exellent,Unknown,Mumbai,Discharged
+P030,Aisha Khan,46.0,M,Orthopedics,Dr. Rao,,,31304.0,260.0,Exellent,Unknown,Nagpur,Discharged
+P031,Ali,46.0,F,Dermatology,Dr. Mehta,,,29911.5,109.0,Exellent,9988776655.0,Mumbai,Discharged
+P032,Aisha Khan,42.0,F,Neurology,Dr. Sharma,,,21487.0,109.0,Unknown,Unknown,Delhi,Admitted
+P033,Aditya,46.0,F,Cardiology,Dr. Singh,2023-09-19,,45232.0,109.0,Unknown,Unknown,Delhi,Inpatient
+P034,Rohit,46.0,F,Orthopedics,Dr. Mehta,2023-07-24,,16583.0,109.0,Good,9876543210.0,Mumbai,Admitted
+P035,Pooja,46.0,F,Neurology,Dr. Singh,2023-08-22,,33602.0,109.0,Good,976543210.0,Nagpur,Inpatient
+P036,Pooja,46.0,F,Gynecology,Dr. Singh,,,29911.5,109.0,Good,9988776655.0,Mumbai,Discharged
+P037,Vikas,46.0,F,Gynecology,Dr. Mehta,,2023-09-26,33848.0,376.0,Good,9988776655.0,Delhi,Admitted
+P038,Meena,46.0,F,Cardiology,Dr. Rao,,2023-12-17,29911.5,109.0,Excellent,9876543210.0,Mumbai,Discharged
+P039,Priya,46.0,M,Dermatology,Dr. Mehta,2023-10-29,,19202.0,109.0,Average,9876543210.0,Mumbai,Discharged
+P040,Raj Sharma,46.0,F,Neurology,Dr. Mehta,,,29911.5,109.0,Unknown,9988776655.0,Delhi,Admitted
+P041,Farhan,46.0,F,Cardiology,Dr. Singh,,,29911.5,109.0,Excellent,Unknown,Delhi,Discharged
+P042,Simran,46.0,F,Neurology,Dr. Singh,,,29911.5,109.0,Unknown,9876543210.0,Nagpur,Inpatient
+P043,Rohit,46.0,F,Cardiology,Dr. Singh,,,29911.5,173.0,Good,Unknown,Delhi,Admitted
+P044,Meena,46.0,M,Gynecology,Dr. Iyer,2023-04-27,,29911.5,109.0,Unknown,9876543210.0,Mumbai,Discharged
+P045,Meena,46.0,F,Neurology,Dr. Singh,2023-01-04,,29911.5,109.0,Exellent,9988776655.0,Mumbai,Discharged
+P046,Sonal,59.0,F,Cardiology,Dr. Rao,,,36935.0,109.0,Average,Unknown,Nagpur,Discharged
+P047,Simran,46.0,F,Neurology,Dr. Mehta,,,45261.0,109.0,Good,9988776655.0,Pune,Admitted
+P048,Manoj,46.0,M,Orthopedics,Dr. Singh,,,29911.5,109.0,Good,976543210.0,Nagpur,Discharged
+P049,Reena,45.0,M,Orthopedics,Dr. Mehta,,,41438.0,109.0,Good,Unknown,Delhi,Inpatient
+P050,Reena,46.0,M,Cardiology,Dr. Iyer,,,46592.0,109.0,Excellent,9876543210.0,Nagpur,Discharged
+P051,Vikas,46.0,M,Orthopedics,Dr. Mehta,,,29911.5,376.0,Good,Unknown,Mumbai,Discharged
+P052,Vikas,59.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Unknown,976543210.0,Delhi,Inpatient
+P053,Sonal,48.0,F,Dermatology,Dr. Mehta,,,38446.0,109.0,Excellent,Unknown,Mumbai,Discharged
+P054,Meena,46.0,M,Gynecology,Dr. Singh,,,42584.0,109.0,Exellent,Unknown,Pune,Discharged
+P055,S. Patel,46.0,F,Cardiology,Dr. Singh,,,29911.5,175.0,Excellent,Unknown,Pune,Discharged
+P056,Reena,46.0,M,Gynecology,Dr. Rao,,,31796.0,109.0,Unknown,Unknown,Nagpur,Discharged
+P057,Aisha Khan,46.0,F,Cardiology,Dr. Singh,,,28286.0,109.0,Average,9988776655.0,Mumbai,Inpatient
+P058,Vikas,46.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Exellent,976543210.0,Mumbai,Discharged
+P059,Pooja,46.0,F,Neurology,Dr. Mehta,2023-04-06,,29911.5,109.0,Unknown,976543210.0,Pune,Admitted
+P060,Reena,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Average,Unknown,Delhi,Inpatient
+P061,Farhan,46.0,F,Gynecology,Dr. Mehta,2023-01-28,,29911.5,288.0,Excellent,9876543210.0,Pune,Discharged
+P062,Vikas,46.0,M,Neurology,Dr. Rao,,,29911.5,109.0,Unknown,9988776655.0,Nagpur,Discharged
+P063,Meena,20.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Average,9988776655.0,Pune,Discharged
+P064,Farhan,46.0,F,Orthopedics,Dr. Iyer,,,29911.5,109.0,Average,Unknown,Delhi,Discharged
+P065,Ananya,46.0,M,Cardiology,Dr. Iyer,2023-02-19,,38191.0,109.0,Average,976543210.0,Mumbai,Inpatient
+P066,Meena,46.0,M,Neurology,Dr. Sharma,,,29911.5,109.0,Excellent,9876543210.0,Nagpur,Discharged
+P067,Sara,46.0,F,Cardiology,Dr. Mehta,,,13161.0,109.0,Good,9988776655.0,Nagpur,Discharged
+P068,Sara,46.0,M,Neurology,Dr. Mehta,2023-07-25,,29911.5,109.0,Unknown,976543210.0,Nagpur,Inpatient
+P069,Sara,46.0,M,Neurology,Dr. Singh,,,29911.5,109.0,Unknown,976543210.0,Delhi,Discharged
+P070,Aisha Khan,49.0,M,Cardiology,Dr. Mehta,,,29911.5,109.0,Unknown,Unknown,Delhi,Admitted
+P071,Aditya,65.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Exellent,Unknown,Nagpur,Inpatient
+P072,Sara,46.0,F,Cardiology,Dr. Rao,,,47292.0,109.0,Average,9988776655.0,Delhi,Inpatient
+P073,Ananya,46.0,F,Gynecology,Dr. Iyer,2023-02-07,,29911.5,109.0,Exellent,9988776655.0,Pune,Inpatient
+P074,Aisha Khan,46.0,F,Orthopedics,Dr. Mehta,,,29911.5,214.0,Average,Unknown,Nagpur,Inpatient
+P075,Vikas,35.0,F,Orthopedics,Dr. Mehta,,,29911.5,342.0,Unknown,Unknown,Pune,Admitted
+P076,Ananya,46.0,M,Neurology,Dr. Rao,,,19088.0,109.0,Unknown,9988776655.0,Mumbai,Discharged
+P077,Ananya,45.0,F,Cardiology,Dr. Mehta,,,49578.0,109.0,Unknown,9988776655.0,Pune,Discharged
+P078,Ananya,65.0,M,Neurology,Dr. Singh,,,29911.5,109.0,Excellent,976543210.0,Mumbai,Discharged
+P079,Raj Sharma,69.0,F,Gynecology,Dr. Singh,,,34497.0,361.0,Exellent,Unknown,Mumbai,Discharged
+P080,Ananya,46.0,M,Dermatology,Dr. Mehta,2023-01-23,,29911.5,109.0,Unknown,9876543210.0,Mumbai,Discharged
+P081,Vikas,46.0,M,Orthopedics,Dr. Iyer,,,29911.5,109.0,Average,Unknown,Pune,Discharged
+P082,Manoj,46.0,F,Orthopedics,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Pune,Inpatient
+P083,Manoj,46.0,F,Neurology,Dr. Singh,2023-12-17,2023-04-28,9814.0,109.0,Unknown,9876543210.0,Nagpur,Discharged
+P084,Farhan,46.0,M,Gynecology,Dr. Iyer,,,41936.0,109.0,Unknown,Unknown,Nagpur,Admitted
+P085,Sonal,46.0,F,Orthopedics,Dr. Iyer,2023-02-09,,47322.0,354.0,Good,976543210.0,Pune,Discharged
+P086,Meena,46.0,F,Cardiology,Dr. Singh,,,14397.0,109.0,Good,9988776655.0,Delhi,Discharged
+P087,Ali,47.0,M,Dermatology,Dr. Rao,,,29911.5,109.0,Unknown,976543210.0,Pune,Discharged
+P088,Simran,46.0,F,Dermatology,Dr. Rao,,,29911.5,109.0,Good,Unknown,Pune,Admitted
+P089,Meena,46.0,F,Neurology,Dr. Singh,,,29911.5,109.0,Good,Unknown,Nagpur,Discharged
+P090,Ananya,66.0,F,Dermatology,Dr. Sharma,,,33505.0,386.0,Excellent,Unknown,Pune,Discharged
+P091,Farhan,46.0,M,Gynecology,Dr. Singh,,,45611.0,109.0,Unknown,9988776655.0,Delhi,Discharged
+P092,Ali,46.0,F,Dermatology,Dr. Mehta,2023-01-07,,29911.5,173.0,Unknown,976543210.0,Mumbai,Inpatient
+P093,Aisha Khan,46.0,F,Cardiology,Dr. Mehta,2023-10-29,,29911.5,293.0,Good,9988776655.0,Mumbai,Discharged
+P094,Aisha Khan,46.0,M,Cardiology,Dr. Rao,,,29911.5,172.0,Good,9988776655.0,Pune,Discharged
+P095,Reena,48.0,F,Cardiology,Dr. Rao,2023-04-16,,29911.5,109.0,Good,Unknown,Pune,Discharged
+P096,Aisha Khan,46.0,M,Gynecology,Dr. Sharma,,,29911.5,109.0,Average,9876543210.0,Nagpur,Discharged
+P097,Sara,46.0,F,Cardiology,Dr. Singh,,,29911.5,109.0,Excellent,976543210.0,Mumbai,Inpatient
+P098,Pooja,46.0,M,Cardiology,Dr. Iyer,2023-08-01,,29911.5,252.0,Good,9988776655.0,Delhi,Discharged
+P099,Neha,46.0,M,Orthopedics,Dr. Sharma,,,29911.5,109.0,Exellent,Unknown,Delhi,Discharged
+P100,Aisha Khan,46.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Delhi,Discharged
+P101,Priya,46.0,M,Neurology,Dr. Rao,2023-02-24,,29911.5,109.0,Good,9876543210.0,Mumbai,Discharged
+P102,Farhan,46.0,M,Orthopedics,Dr. Singh,2023-10-08,,29911.5,109.0,Unknown,9876543210.0,Nagpur,Admitted
+P103,Aisha Khan,36.0,M,Dermatology,Dr. Rao,,,29911.5,109.0,Good,9988776655.0,Mumbai,Discharged
+P104,Simran,46.0,M,Orthopedics,Dr. Rao,,,33234.0,109.0,Unknown,9988776655.0,Mumbai,Admitted
+P105,Ali,46.0,M,Orthopedics,Dr. Mehta,2023-02-21,,29911.5,109.0,Good,Unknown,Mumbai,Admitted
+P106,Simran,46.0,F,Gynecology,Dr. Sharma,2023-05-29,,29911.5,109.0,Unknown,976543210.0,Pune,Discharged
+P107,Vikas,46.0,F,Gynecology,Dr. Sharma,,,29911.5,109.0,Good,9876543210.0,Nagpur,Discharged
+P108,Sara,61.0,F,Cardiology,Dr. Iyer,,,29911.5,340.0,Exellent,976543210.0,Mumbai,Discharged
+P109,Sonal,46.0,M,Orthopedics,Dr. Singh,,,40043.0,216.0,Unknown,Unknown,Pune,Inpatient
+P110,Priya,46.0,F,Cardiology,Dr. Rao,,,37917.0,109.0,Exellent,976543210.0,Mumbai,Inpatient
+P111,Pooja,46.0,M,Gynecology,Dr. Singh,,,38848.0,237.0,Unknown,976543210.0,Mumbai,Discharged
+P112,Manoj,46.0,M,Dermatology,Dr. Sharma,,,40259.0,109.0,Excellent,9988776655.0,Nagpur,Inpatient
+P113,Farhan,46.0,M,Cardiology,Dr. Singh,,,29911.5,169.0,Excellent,Unknown,Delhi,Discharged
+P114,S. Patel,46.0,F,Gynecology,Dr. Iyer,,,32121.0,109.0,Good,976543210.0,Nagpur,Discharged
+P115,Manoj,46.0,M,Cardiology,Dr. Sharma,,,39007.0,177.0,Average,9988776655.0,Mumbai,Admitted
+P116,Ali,46.0,F,Orthopedics,Dr. Iyer,,,40122.0,103.0,Average,Unknown,Delhi,Admitted
+P117,Farhan,46.0,M,Orthopedics,Dr. Rao,,,29911.5,109.0,Unknown,976543210.0,Mumbai,Discharged
+P118,Pooja,52.0,M,Dermatology,Dr. Iyer,,,44917.0,109.0,Excellent,976543210.0,Nagpur,Inpatient
+P119,Vikas,46.0,M,Dermatology,Dr. Mehta,2023-03-07,,13514.0,109.0,Excellent,9988776655.0,Pune,Discharged
+P120,Ananya,46.0,M,Cardiology,Dr. Rao,,,37336.0,109.0,Exellent,Unknown,Mumbai,Admitted
+P121,Ananya,30.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,9988776655.0,Pune,Discharged
+P122,Raj Sharma,34.0,F,Orthopedics,Dr. Singh,2023-09-10,,18706.0,109.0,Good,Unknown,Nagpur,Admitted
+P123,Meena,46.0,M,Gynecology,Dr. Mehta,,,21588.0,109.0,Average,976543210.0,Delhi,Admitted
+P124,Aisha Khan,46.0,F,Cardiology,Dr. Rao,,2023-05-17,29911.5,109.0,Average,9988776655.0,Mumbai,Discharged
+P125,Farhan,46.0,M,Orthopedics,Dr. Rao,,,29911.5,109.0,Unknown,976543210.0,Nagpur,Admitted
+P126,Pooja,46.0,F,Gynecology,Dr. Singh,2023-04-20,2023-08-14,29911.5,230.0,Excellent,9988776655.0,Mumbai,Admitted
+P127,Ali,46.0,F,Cardiology,Dr. Mehta,2023-05-15,,29911.5,109.0,Average,9988776655.0,Nagpur,Discharged
+P128,Manoj,23.0,F,Gynecology,Dr. Singh,2023-12-23,,29911.5,109.0,Good,976543210.0,Delhi,Admitted
+P129,Vikas,27.0,F,Dermatology,Dr. Singh,,,29911.5,109.0,Excellent,Unknown,Mumbai,Discharged
+P130,Ananya,46.0,F,Gynecology,Dr. Rao,2023-10-06,,29911.5,109.0,Average,Unknown,Nagpur,Admitted
+P131,Sara,46.0,F,Orthopedics,Dr. Mehta,2023-07-17,,29911.5,330.0,Good,976543210.0,Nagpur,Discharged
+P132,Meena,26.0,F,Cardiology,Dr. Singh,2023-05-20,,32451.0,395.0,Unknown,9988776655.0,Nagpur,Inpatient
+P133,Aditya,46.0,F,Cardiology,Dr. Sharma,,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P134,Manoj,46.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Good,Unknown,Mumbai,Discharged
+P135,Pooja,46.0,M,Orthopedics,Dr. Sharma,2023-08-11,2023-12-02,29911.5,353.0,Average,9988776655.0,Delhi,Discharged
+P136,Neha,69.0,M,Gynecology,Dr. Sharma,,,29911.5,109.0,Good,976543210.0,Delhi,Discharged
+P137,Ali,47.0,M,Cardiology,Dr. Mehta,2023-01-08,,29911.5,109.0,Unknown,9876543210.0,Delhi,Inpatient
+P138,Manoj,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Good,976543210.0,Delhi,Admitted
+P139,Farhan,46.0,M,Dermatology,Dr. Sharma,2023-08-08,,20776.0,109.0,Exellent,976543210.0,Delhi,Admitted
+P140,Manoj,46.0,M,Gynecology,Dr. Iyer,,,8823.0,109.0,Exellent,9876543210.0,Nagpur,Admitted
+P141,Manoj,53.0,F,Cardiology,Dr. Sharma,2023-09-27,,29911.5,234.0,Excellent,Unknown,Mumbai,Admitted
+P142,Farhan,59.0,F,Cardiology,Dr. Rao,,,25171.0,109.0,Excellent,976543210.0,Nagpur,Discharged
+P143,Reena,46.0,M,Cardiology,Dr. Mehta,2023-12-24,,29911.5,109.0,Exellent,976543210.0,Pune,Discharged
+P144,Ananya,46.0,F,Cardiology,Dr. Singh,,,29911.5,268.0,Unknown,976543210.0,Pune,Inpatient
+P145,Neha,33.0,F,Neurology,Dr. Rao,,,34085.0,282.0,Excellent,976543210.0,Nagpur,Inpatient
+P146,Simran,46.0,M,Cardiology,Dr. Rao,2023-04-29,,25089.0,109.0,Unknown,976543210.0,Delhi,Discharged
+P147,Reena,46.0,M,Gynecology,Dr. Rao,,,29911.5,109.0,Excellent,Unknown,Pune,Admitted
+P148,Aisha Khan,46.0,F,Orthopedics,Dr. Rao,,,20885.0,231.0,Unknown,9876543210.0,Nagpur,Admitted
+P149,Ananya,46.0,F,Cardiology,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Delhi,Admitted
+P150,Aditya,62.0,F,Dermatology,Dr. Sharma,,,29911.5,109.0,Unknown,Unknown,Mumbai,Admitted
+P151,Neha,46.0,M,Gynecology,Dr. Singh,,,48770.0,255.0,Average,Unknown,Pune,Admitted
+P152,Aditya,46.0,F,Gynecology,Dr. Singh,,,29911.5,341.0,Average,Unknown,Delhi,Discharged
+P153,Simran,46.0,F,Gynecology,Dr. Mehta,2023-10-21,,23489.0,109.0,Exellent,Unknown,Nagpur,Inpatient
+P154,Rohit,46.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P155,Simran,68.0,F,Neurology,Dr. Rao,2023-04-01,,12397.0,109.0,Unknown,Unknown,Delhi,Admitted
+P156,Raj Sharma,46.0,M,Gynecology,Dr. Singh,2023-02-22,,29911.5,158.0,Unknown,Unknown,Pune,Inpatient
+P157,Vikas,23.0,M,Neurology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P158,Rohit,46.0,F,Orthopedics,Dr. Mehta,2023-10-17,,29911.5,373.0,Good,9988776655.0,Nagpur,Admitted
+P159,S. Patel,46.0,M,Orthopedics,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P160,Sonal,46.0,M,Orthopedics,Dr. Iyer,2023-07-29,,19620.0,109.0,Unknown,Unknown,Delhi,Discharged
+P161,Reena,65.0,M,Cardiology,Dr. Mehta,,,29911.5,109.0,Good,Unknown,Mumbai,Inpatient
+P162,Pooja,46.0,M,Neurology,Dr. Singh,,,29911.5,109.0,Excellent,Unknown,Mumbai,Admitted
+P163,Farhan,46.0,M,Gynecology,Dr. Singh,,,35919.0,109.0,Unknown,976543210.0,Delhi,Admitted
+P164,Reena,68.0,F,Gynecology,Dr. Singh,,,20173.0,109.0,Excellent,Unknown,Delhi,Inpatient
+P165,Aisha Khan,46.0,F,Dermatology,Dr. Rao,,,29911.5,286.0,Exellent,Unknown,Mumbai,Discharged
+P166,Simran,32.0,F,Orthopedics,Dr. Singh,,,31441.0,109.0,Exellent,Unknown,Nagpur,Discharged
+P167,Vikas,46.0,M,Cardiology,Dr. Singh,,2023-09-05,29911.5,334.0,Unknown,9988776655.0,Mumbai,Discharged
+P168,Vikas,46.0,F,Orthopedics,Dr. Rao,2023-06-27,,29911.5,109.0,Unknown,Unknown,Delhi,Inpatient
+P169,Raj Sharma,46.0,F,Dermatology,Dr. Mehta,,,29911.5,109.0,Unknown,9876543210.0,Delhi,Inpatient
+P170,Sonal,46.0,F,Gynecology,Dr. Sharma,,,29911.5,121.0,Unknown,Unknown,Pune,Discharged
+P171,S. Patel,46.0,M,Orthopedics,Dr. Iyer,,,29911.5,109.0,Good,9876543210.0,Delhi,Admitted
+P172,Reena,46.0,M,Orthopedics,Dr. Rao,,,29911.5,109.0,Average,9876543210.0,Mumbai,Discharged
+P173,Sonal,23.0,M,Gynecology,Dr. Sharma,,,29911.5,109.0,Good,Unknown,Delhi,Inpatient
+P174,Raj Sharma,46.0,F,Gynecology,Dr. Rao,2023-01-10,,15664.0,109.0,Average,Unknown,Nagpur,Inpatient
+P175,Ali,46.0,M,Gynecology,Dr. Rao,,,29911.5,109.0,Average,Unknown,Mumbai,Inpatient
+P176,Priya,51.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,9876543210.0,Delhi,Inpatient
+P177,Farhan,46.0,F,Gynecology,Dr. Mehta,,,27163.0,174.0,Unknown,9876543210.0,Nagpur,Admitted
+P178,Manoj,46.0,F,Cardiology,Dr. Mehta,,,29911.5,109.0,Unknown,9988776655.0,Pune,Discharged
+P179,Manoj,43.0,F,Dermatology,Dr. Singh,,,21397.0,109.0,Unknown,9988776655.0,Nagpur,Discharged
+P180,Pooja,20.0,F,Cardiology,Dr. Iyer,,,22450.0,109.0,Good,Unknown,Mumbai,Admitted
+P181,S. Patel,46.0,F,Gynecology,Dr. Rao,,,34015.0,109.0,Exellent,9876543210.0,Mumbai,Inpatient
+P182,Neha,46.0,F,Gynecology,Dr. Mehta,2023-06-23,,29911.5,109.0,Unknown,Unknown,Pune,Admitted
+P183,Sonal,46.0,F,Orthopedics,Dr. Singh,,2023-11-09,29911.5,109.0,Good,976543210.0,Nagpur,Discharged
+P184,Raj Sharma,46.0,F,Cardiology,Dr. Sharma,2023-06-14,,47919.0,109.0,Exellent,Unknown,Pune,Discharged
+P185,Vikas,46.0,M,Cardiology,Dr. Iyer,,,29911.5,109.0,Unknown,9988776655.0,Delhi,Discharged
+P186,Simran,46.0,M,Gynecology,Dr. Mehta,,,29911.5,109.0,Unknown,Unknown,Delhi,Discharged
+P187,Ananya,46.0,F,Orthopedics,Dr. Rao,,,29911.5,109.0,Exellent,Unknown,Pune,Inpatient
+P188,Ananya,54.0,M,Neurology,Dr. Sharma,2023-02-26,,18298.0,109.0,Unknown,976543210.0,Pune,Discharged
+P189,Pooja,46.0,F,Neurology,Dr. Mehta,,,29911.5,109.0,Excellent,Unknown,Nagpur,Admitted
+P190,Vikas,26.0,M,Neurology,Dr. Mehta,,,49481.0,109.0,Unknown,9988776655.0,Pune,Discharged
+P191,Neha,46.0,M,Dermatology,Dr. Sharma,2023-10-19,,29911.5,399.0,Unknown,976543210.0,Mumbai,Inpatient
+P192,Farhan,68.0,M,Orthopedics,Dr. Rao,,,29911.5,109.0,Unknown,976543210.0,Delhi,Inpatient
+P193,Sara,54.0,F,Neurology,Dr. Rao,,,29911.5,109.0,Good,976543210.0,Delhi,Admitted
+P194,Ananya,46.0,F,Orthopedics,Dr. Mehta,,,25982.0,109.0,Average,Unknown,Pune,Admitted
+P195,Reena,46.0,M,Dermatology,Dr. Singh,,,24533.0,109.0,Unknown,976543210.0,Pune,Admitted
+P196,Simran,46.0,F,Neurology,Dr. Iyer,,,40529.0,109.0,Good,Unknown,Pune,Inpatient
+P197,Aisha Khan,46.0,F,Cardiology,Dr. Singh,,,45162.0,299.0,Good,976543210.0,Pune,Admitted
+P198,Sara,38.0,F,Cardiology,Dr. Mehta,,2023-07-13,29911.5,109.0,Unknown,9988776655.0,Mumbai,Discharged
+P199,Neha,46.0,M,Cardiology,Dr. Singh,,2023-06-02,29911.5,109.0,Excellent,Unknown,Pune,Discharged
+P200,Sonal,46.0,M,Neurology,Dr. Sharma,,,29911.5,109.0,Unknown,976543210.0,Delhi,Admitted
+P201,Vikas,46.0,F,Dermatology,Dr. Singh,,,16941.0,109.0,Unknown,9988776655.0,Mumbai,Inpatient
+P202,Rohit,46.0,F,Gynecology,Dr. Mehta,,,29911.5,109.0,Exellent,9988776655.0,Delhi,Discharged
+P203,Farhan,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Good,9988776655.0,Nagpur,Inpatient
+P204,Meena,46.0,F,Cardiology,Dr. Singh,,,29911.5,252.0,Unknown,9876543210.0,Nagpur,Discharged
+P205,Neha,46.0,M,Orthopedics,Dr. Mehta,,,29911.5,109.0,Exellent,9876543210.0,Mumbai,Inpatient
+P206,Aisha Khan,58.0,F,Cardiology,Dr. Mehta,,,29911.5,207.0,Exellent,Unknown,Nagpur,Discharged
+P207,Reena,45.0,F,Orthopedics,Dr. Sharma,2023-05-02,,21089.0,109.0,Excellent,Unknown,Nagpur,Discharged
+P208,S. Patel,46.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Exellent,9988776655.0,Delhi,Inpatient
+P209,Aditya,46.0,F,Neurology,Dr. Iyer,,,29911.5,109.0,Unknown,976543210.0,Pune,Admitted
+P210,Raj Sharma,46.0,M,Gynecology,Dr. Rao,2023-09-16,,47415.0,109.0,Unknown,Unknown,Pune,Discharged
+P211,Pooja,25.0,F,Orthopedics,Dr. Sharma,,,29911.5,109.0,Unknown,976543210.0,Pune,Discharged
+P212,Neha,46.0,F,Neurology,Dr. Rao,,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P213,Aditya,46.0,M,Neurology,Dr. Rao,,,29911.5,270.0,Excellent,9876543210.0,Nagpur,Inpatient
+P214,Farhan,46.0,F,Gynecology,Dr. Sharma,,,25310.0,109.0,Good,9988776655.0,Pune,Discharged
+P215,Reena,46.0,M,Gynecology,Dr. Mehta,2023-12-11,,29911.5,109.0,Good,9876543210.0,Mumbai,Admitted
+P216,Rohit,65.0,M,Gynecology,Dr. Rao,2023-05-03,,29911.5,109.0,Good,Unknown,Nagpur,Admitted
+P217,Sara,46.0,F,Cardiology,Dr. Sharma,2023-10-13,,29911.5,293.0,Exellent,9876543210.0,Nagpur,Discharged
+P218,Ananya,46.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Average,976543210.0,Nagpur,Inpatient
+P219,Vikas,46.0,F,Dermatology,Dr. Singh,2023-05-05,,17089.0,109.0,Exellent,Unknown,Nagpur,Discharged
+P220,Farhan,46.0,F,Cardiology,Dr. Mehta,,,29911.5,192.0,Excellent,Unknown,Nagpur,Admitted
+P221,Meena,46.0,F,Orthopedics,Dr. Rao,,,29911.5,109.0,Unknown,9876543210.0,Pune,Discharged
+P222,Meena,46.0,F,Orthopedics,Dr. Rao,,,12639.0,109.0,Exellent,976543210.0,Nagpur,Discharged
+P223,Sonal,46.0,F,Orthopedics,Dr. Iyer,,,29911.5,109.0,Unknown,976543210.0,Mumbai,Admitted
+P224,S. Patel,46.0,M,Dermatology,Dr. Rao,,,37065.0,109.0,Unknown,9876543210.0,Nagpur,Discharged
+P225,Sonal,46.0,F,Neurology,Dr. Singh,,,29911.5,288.0,Exellent,9988776655.0,Nagpur,Inpatient
+P226,Simran,66.0,F,Orthopedics,Dr. Mehta,,,39500.0,109.0,Good,Unknown,Delhi,Discharged
+P227,Aisha Khan,46.0,F,Orthopedics,Dr. Iyer,,,29911.5,109.0,Unknown,9988776655.0,Delhi,Admitted
+P228,Ali,46.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Exellent,Unknown,Nagpur,Inpatient
+P229,Rohit,47.0,F,Orthopedics,Dr. Rao,,,18186.0,109.0,Exellent,9988776655.0,Mumbai,Inpatient
+P230,S. Patel,46.0,F,Cardiology,Dr. Iyer,,,29911.5,272.0,Good,Unknown,Pune,Discharged
+P231,Sonal,46.0,M,Cardiology,Dr. Singh,2023-10-29,,29911.5,109.0,Unknown,9876543210.0,Pune,Discharged
+P232,Aditya,46.0,F,Cardiology,Dr. Mehta,2023-11-18,,42592.0,109.0,Good,Unknown,Pune,Inpatient
+P233,Ali,46.0,F,Gynecology,Dr. Iyer,2023-09-07,,29911.5,239.0,Unknown,Unknown,Nagpur,Discharged
+P234,Priya,46.0,F,Gynecology,Dr. Rao,2023-03-17,2023-12-31,29911.5,109.0,Unknown,Unknown,Delhi,Admitted
+P235,Ananya,29.0,F,Gynecology,Dr. Iyer,,,29911.5,309.0,Unknown,976543210.0,Nagpur,Inpatient
+P236,Aditya,46.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Exellent,9988776655.0,Pune,Discharged
+P237,Aditya,46.0,M,Dermatology,Dr. Rao,,,17506.0,267.0,Unknown,9876543210.0,Nagpur,Admitted
+P238,Aisha Khan,46.0,F,Gynecology,Dr. Rao,,,41494.0,109.0,Exellent,Unknown,Delhi,Inpatient
+P239,Vikas,29.0,M,Dermatology,Dr. Mehta,2023-11-13,,31622.0,109.0,Unknown,976543210.0,Mumbai,Discharged
+P240,Sara,46.0,M,Cardiology,Dr. Sharma,,2023-06-06,46202.0,121.0,Excellent,Unknown,Pune,Discharged
+P241,Pooja,40.0,M,Dermatology,Dr. Mehta,,,29911.5,109.0,Average,9988776655.0,Nagpur,Discharged
+P242,Ali,24.0,M,Gynecology,Dr. Singh,2023-09-20,,46401.0,109.0,Good,976543210.0,Pune,Discharged
+P243,Priya,46.0,F,Orthopedics,Dr. Mehta,2023-04-15,,29911.5,253.0,Average,Unknown,Delhi,Discharged
+P244,Aisha Khan,26.0,F,Neurology,Dr. Singh,,,20142.0,109.0,Unknown,9876543210.0,Mumbai,Discharged
+P245,Reena,58.0,M,Orthopedics,Dr. Rao,,,29911.5,216.0,Unknown,9876543210.0,Delhi,Discharged
+P246,Simran,46.0,M,Neurology,Dr. Rao,2023-12-26,,43277.0,109.0,Good,Unknown,Mumbai,Discharged
+P247,Sara,44.0,M,Dermatology,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Pune,Admitted
+P248,Neha,54.0,F,Cardiology,Dr. Iyer,2023-03-12,2023-08-30,29911.5,109.0,Excellent,9988776655.0,Mumbai,Discharged
+P249,Ali,70.0,M,Orthopedics,Dr. Mehta,,,29911.5,109.0,Good,Unknown,Mumbai,Discharged
+P250,Vikas,46.0,F,Orthopedics,Dr. Rao,2023-08-17,,29911.5,109.0,Good,9988776655.0,Nagpur,Discharged
+P251,Pooja,42.0,M,Orthopedics,Dr. Rao,,,47872.0,109.0,Average,Unknown,Nagpur,Inpatient
+P252,Neha,46.0,M,Neurology,Dr. Iyer,2023-08-25,,44264.0,109.0,Unknown,9988776655.0,Delhi,Inpatient
+P253,S. Patel,46.0,F,Gynecology,Dr. Sharma,2023-05-13,,10911.0,109.0,Unknown,9876543210.0,Nagpur,Admitted
+P254,Raj Sharma,46.0,F,Neurology,Dr. Rao,,,29911.5,109.0,Good,9876543210.0,Pune,Discharged
+P255,Reena,46.0,M,Gynecology,Dr. Mehta,,,29911.5,109.0,Excellent,9876543210.0,Pune,Discharged
+P256,S. Patel,46.0,M,Cardiology,Dr. Rao,,,29911.5,298.0,Unknown,9988776655.0,Nagpur,Discharged
+P257,Rohit,46.0,F,Dermatology,Dr. Rao,2023-08-31,,29911.5,109.0,Excellent,9876543210.0,Pune,Discharged
+P258,Neha,46.0,F,Orthopedics,Dr. Singh,,,29911.5,109.0,Average,Unknown,Delhi,Discharged
+P259,Manoj,46.0,F,Neurology,Dr. Sharma,,,9027.0,109.0,Unknown,Unknown,Pune,Discharged
+P260,Raj Sharma,46.0,F,Neurology,Dr. Iyer,,,29911.5,210.0,Excellent,9876543210.0,Nagpur,Admitted
+P261,Ali,39.0,F,Orthopedics,Dr. Mehta,,2023-09-04,29911.5,109.0,Exellent,Unknown,Pune,Discharged
+P262,Priya,46.0,M,Neurology,Dr. Sharma,2023-12-31,,29911.5,109.0,Exellent,976543210.0,Nagpur,Discharged
+P263,Aditya,31.0,F,Cardiology,Dr. Singh,,,28407.0,339.0,Average,Unknown,Delhi,Discharged
+P264,Manoj,56.0,F,Orthopedics,Dr. Rao,2023-05-23,,29911.5,108.0,Unknown,Unknown,Mumbai,Inpatient
+P265,Rohit,69.0,M,Neurology,Dr. Mehta,2023-04-12,,29911.5,109.0,Average,Unknown,Nagpur,Admitted
+P266,Pooja,46.0,F,Orthopedics,Dr. Mehta,2023-12-12,,29911.5,109.0,Good,9876543210.0,Delhi,Inpatient
+P267,Neha,46.0,M,Orthopedics,Dr. Iyer,,,34331.0,333.0,Average,976543210.0,Nagpur,Inpatient
+P268,Sonal,46.0,F,Gynecology,Dr. Singh,,2023-08-05,32974.0,109.0,Unknown,9988776655.0,Delhi,Admitted
+P269,Vikas,46.0,M,Cardiology,Dr. Mehta,,,29911.5,142.0,Good,9876543210.0,Pune,Discharged
+P270,Rohit,46.0,M,Neurology,Dr. Rao,2023-11-22,,22383.0,109.0,Unknown,9988776655.0,Pune,Discharged
+P271,S. Patel,38.0,F,Neurology,Dr. Sharma,2023-05-24,,29911.5,290.0,Exellent,Unknown,Pune,Discharged
+P272,Farhan,46.0,M,Cardiology,Dr. Mehta,,,46189.0,109.0,Unknown,Unknown,Mumbai,Inpatient
+P273,Reena,46.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,9988776655.0,Pune,Admitted
+P274,Rohit,46.0,M,Dermatology,Dr. Singh,2023-03-17,,21875.0,109.0,Average,9876543210.0,Nagpur,Admitted
+P275,Aisha Khan,46.0,F,Dermatology,Dr. Singh,,,29911.5,146.0,Good,Unknown,Nagpur,Discharged
+P276,Ananya,46.0,F,Neurology,Dr. Rao,,,29911.5,376.0,Good,976543210.0,Nagpur,Discharged
+P277,Aisha Khan,38.0,M,Orthopedics,Dr. Iyer,2023-06-24,,14524.0,109.0,Good,Unknown,Mumbai,Discharged
+P278,Reena,58.0,M,Gynecology,Dr. Iyer,2023-05-30,,47410.0,109.0,Average,9988776655.0,Delhi,Discharged
+P279,Ali,46.0,F,Gynecology,Dr. Mehta,2023-07-07,,23599.0,150.0,Exellent,9988776655.0,Pune,Discharged
+P280,Farhan,46.0,F,Orthopedics,Dr. Mehta,,,29911.5,109.0,Unknown,9876543210.0,Nagpur,Discharged
+P281,Raj Sharma,46.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Mumbai,Admitted
+P282,Reena,42.0,M,Orthopedics,Dr. Iyer,,,40838.0,355.0,Good,Unknown,Mumbai,Inpatient
+P283,Ali,46.0,F,Cardiology,Dr. Sharma,2023-05-31,,29911.5,109.0,Exellent,9876543210.0,Pune,Discharged
+P284,Aditya,46.0,F,Cardiology,Dr. Rao,,2023-06-23,29911.5,109.0,Average,Unknown,Mumbai,Discharged
+P285,Farhan,46.0,M,Cardiology,Dr. Rao,,,31505.0,109.0,Good,Unknown,Nagpur,Discharged
+P286,Priya,46.0,M,Dermatology,Dr. Mehta,,,29911.5,109.0,Good,9876543210.0,Nagpur,Discharged
+P287,Farhan,46.0,M,Neurology,Dr. Rao,2023-07-19,,29911.5,248.0,Exellent,9988776655.0,Delhi,Admitted
+P288,Ali,46.0,M,Dermatology,Dr. Rao,,,29911.5,109.0,Average,9988776655.0,Nagpur,Admitted
+P289,Manoj,46.0,F,Gynecology,Dr. Mehta,,,29473.0,155.0,Unknown,9876543210.0,Nagpur,Discharged
+P290,Ali,46.0,M,Cardiology,Dr. Mehta,,,29911.5,109.0,Average,976543210.0,Pune,Inpatient
+P291,S. Patel,46.0,M,Orthopedics,Dr. Rao,2023-02-03,,29911.5,109.0,Good,Unknown,Pune,Admitted
+P292,Priya,46.0,F,Cardiology,Dr. Rao,,,29911.5,338.0,Unknown,976543210.0,Nagpur,Inpatient
+P293,Ali,46.0,M,Cardiology,Dr. Singh,2023-09-02,,29911.5,109.0,Good,976543210.0,Nagpur,Discharged
+P294,Pooja,46.0,M,Cardiology,Dr. Singh,2023-09-10,,29911.5,109.0,Unknown,Unknown,Delhi,Discharged
+P295,Farhan,46.0,M,Dermatology,Dr. Iyer,,,39791.0,301.0,Unknown,9876543210.0,Nagpur,Inpatient
+P296,Ali,46.0,M,Orthopedics,Dr. Mehta,,2023-12-25,29911.5,109.0,Average,9876543210.0,Delhi,Inpatient
+P297,Reena,46.0,F,Neurology,Dr. Iyer,,2023-11-04,29911.5,188.0,Average,Unknown,Nagpur,Admitted
+P298,Priya,46.0,F,Gynecology,Dr. Singh,,,15976.0,378.0,Exellent,976543210.0,Delhi,Inpatient
+P299,Rohit,65.0,M,Gynecology,Dr. Mehta,,,25340.0,109.0,Unknown,976543210.0,Nagpur,Admitted
+P300,Manoj,66.0,F,Gynecology,Dr. Sharma,2023-03-10,,29911.5,109.0,Exellent,9988776655.0,Pune,Inpatient
+P301,Neha,46.0,M,Gynecology,Dr. Mehta,,,29911.5,109.0,Good,9876543210.0,Delhi,Admitted
+P302,Reena,46.0,M,Cardiology,Dr. Rao,,,28446.0,109.0,Unknown,9876543210.0,Nagpur,Admitted
+P303,Raj Sharma,46.0,F,Orthopedics,Dr. Sharma,,,38749.0,109.0,Good,9876543210.0,Pune,Admitted
+P304,Pooja,46.0,M,Dermatology,Dr. Mehta,2023-12-07,,29911.5,109.0,Good,9876543210.0,Delhi,Inpatient
+P305,S. Patel,46.0,F,Neurology,Dr. Rao,2023-06-07,,29911.5,109.0,Excellent,9988776655.0,Pune,Admitted
+P306,Ali,46.0,F,Neurology,Dr. Singh,,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P307,Reena,46.0,M,Gynecology,Dr. Mehta,,,43385.0,109.0,Excellent,9876543210.0,Pune,Discharged
+P308,Sonal,47.0,M,Orthopedics,Dr. Rao,,2023-06-11,42336.0,109.0,Average,Unknown,Delhi,Discharged
+P309,Neha,46.0,M,Gynecology,Dr. Singh,,,17145.0,109.0,Average,976543210.0,Nagpur,Discharged
+P310,Sara,46.0,M,Gynecology,Dr. Singh,,,10445.0,109.0,Excellent,9988776655.0,Mumbai,Discharged
+P311,Sara,46.0,M,Dermatology,Dr. Singh,,,29911.5,109.0,Average,976543210.0,Delhi,Admitted
+P312,Simran,46.0,F,Gynecology,Dr. Mehta,,,29911.5,109.0,Good,976543210.0,Delhi,Admitted
+P313,Ali,46.0,M,Dermatology,Dr. Sharma,,,29911.5,109.0,Excellent,9988776655.0,Delhi,Admitted
+P314,Reena,46.0,M,Dermatology,Dr. Iyer,2023-02-28,,36775.0,150.0,Excellent,Unknown,Nagpur,Discharged
+P315,Raj Sharma,57.0,M,Cardiology,Dr. Rao,2023-10-11,,48984.0,109.0,Unknown,9988776655.0,Delhi,Discharged
+P316,Neha,46.0,M,Orthopedics,Dr. Iyer,,,29911.5,109.0,Excellent,9988776655.0,Mumbai,Admitted
+P317,Sonal,46.0,F,Neurology,Dr. Rao,2023-03-23,,37954.0,109.0,Unknown,9988776655.0,Pune,Inpatient
+P318,Rohit,46.0,F,Orthopedics,Dr. Mehta,,,15683.0,146.0,Unknown,9876543210.0,Nagpur,Discharged
+P319,Farhan,42.0,F,Cardiology,Dr. Mehta,,,23915.0,109.0,Average,9988776655.0,Nagpur,Discharged
+P320,Sonal,46.0,F,Cardiology,Dr. Singh,2023-05-29,2023-11-10,29911.5,109.0,Unknown,Unknown,Delhi,Discharged
+P321,Ananya,46.0,F,Neurology,Dr. Singh,,,29911.5,175.0,Good,Unknown,Delhi,Discharged
+P322,Raj Sharma,46.0,F,Orthopedics,Dr. Mehta,,,26082.0,280.0,Excellent,Unknown,Mumbai,Discharged
+P323,Meena,46.0,M,Gynecology,Dr. Rao,,,43068.0,221.0,Unknown,9876543210.0,Nagpur,Discharged
+P324,Simran,46.0,F,Gynecology,Dr. Singh,,,10336.0,109.0,Unknown,9988776655.0,Delhi,Admitted
+P325,Meena,46.0,F,Cardiology,Dr. Sharma,2023-02-22,,21318.0,109.0,Good,9876543210.0,Nagpur,Admitted
+P326,Sara,46.0,M,Cardiology,Dr. Iyer,,,29911.5,109.0,Good,Unknown,Pune,Discharged
+P327,Priya,70.0,F,Neurology,Dr. Rao,2023-07-13,2023-11-28,29911.5,194.0,Unknown,Unknown,Pune,Inpatient
+P328,Aditya,30.0,M,Orthopedics,Dr. Rao,2023-06-03,,29911.5,330.0,Unknown,9876543210.0,Pune,Inpatient
+P329,Rohit,24.0,F,Orthopedics,Dr. Rao,,,8302.0,109.0,Good,Unknown,Pune,Admitted
+P330,S. Patel,46.0,F,Dermatology,Dr. Sharma,,,22829.0,109.0,Good,9876543210.0,Nagpur,Discharged
+P331,Aisha Khan,46.0,F,Cardiology,Dr. Mehta,2023-07-01,,13261.0,228.0,Unknown,9876543210.0,Mumbai,Discharged
+P332,Aditya,30.0,M,Dermatology,Dr. Sharma,,,23111.0,109.0,Unknown,9876543210.0,Pune,Inpatient
+P333,Aditya,46.0,F,Gynecology,Dr. Mehta,,,36685.0,109.0,Good,Unknown,Pune,Discharged
+P334,Aisha Khan,36.0,M,Orthopedics,Dr. Rao,,,29528.0,299.0,Average,9876543210.0,Pune,Discharged
+P335,Ananya,35.0,F,Cardiology,Dr. Singh,,,29911.5,109.0,Good,9988776655.0,Mumbai,Discharged
+P336,Reena,46.0,M,Dermatology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P337,Simran,46.0,M,Gynecology,Dr. Rao,,,35955.0,109.0,Unknown,9988776655.0,Mumbai,Inpatient
+P338,Rohit,49.0,F,Orthopedics,Dr. Rao,,,17466.0,109.0,Average,Unknown,Mumbai,Inpatient
+P339,Manoj,70.0,F,Gynecology,Dr. Sharma,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P340,Vikas,46.0,F,Gynecology,Dr. Singh,,,21847.0,109.0,Exellent,976543210.0,Delhi,Admitted
+P341,Neha,46.0,M,Cardiology,Dr. Sharma,2023-08-17,,14334.0,109.0,Average,Unknown,Mumbai,Admitted
+P342,Neha,46.0,F,Cardiology,Dr. Mehta,,,29911.5,109.0,Exellent,Unknown,Mumbai,Discharged
+P343,Aditya,46.0,M,Neurology,Dr. Mehta,,,44387.0,109.0,Unknown,9876543210.0,Pune,Discharged
+P344,Simran,64.0,M,Cardiology,Dr. Mehta,,,29911.5,109.0,Excellent,Unknown,Pune,Discharged
+P345,S. Patel,57.0,F,Orthopedics,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P346,Meena,45.0,F,Neurology,Dr. Rao,,,24864.0,109.0,Unknown,9988776655.0,Delhi,Inpatient
+P347,Manoj,54.0,M,Gynecology,Dr. Mehta,2023-02-06,,29911.5,109.0,Unknown,9988776655.0,Delhi,Inpatient
+P348,Ali,33.0,F,Cardiology,Dr. Rao,2023-08-31,,29911.5,109.0,Exellent,Unknown,Mumbai,Discharged
+P349,Sara,46.0,M,Cardiology,Dr. Mehta,,,45923.0,109.0,Unknown,9988776655.0,Nagpur,Admitted
+P350,Sara,46.0,F,Cardiology,Dr. Iyer,,,20299.0,109.0,Unknown,9876543210.0,Pune,Admitted
+P351,Neha,46.0,F,Dermatology,Dr. Rao,,,29911.5,109.0,Unknown,9988776655.0,Nagpur,Admitted
+P352,Sonal,68.0,M,Neurology,Dr. Rao,,,29911.5,109.0,Average,9988776655.0,Delhi,Discharged
+P353,Aditya,42.0,F,Neurology,Dr. Singh,2023-02-03,,29911.5,109.0,Exellent,9988776655.0,Pune,Discharged
+P354,Vikas,46.0,F,Orthopedics,Dr. Rao,2023-04-23,,29911.5,109.0,Average,976543210.0,Delhi,Inpatient
+P355,Rohit,46.0,M,Gynecology,Dr. Singh,,,29911.5,109.0,Unknown,9988776655.0,Pune,Discharged
+P356,Rohit,46.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Delhi,Inpatient
+P357,Manoj,46.0,F,Cardiology,Dr. Mehta,2023-07-24,,29911.5,109.0,Excellent,9988776655.0,Nagpur,Admitted
+P358,S. Patel,46.0,F,Orthopedics,Dr. Mehta,,,29911.5,109.0,Excellent,Unknown,Nagpur,Discharged
+P359,Meena,46.0,F,Dermatology,Dr. Mehta,2023-03-06,,29911.5,239.0,Good,9876543210.0,Delhi,Discharged
+P360,Vikas,46.0,M,Orthopedics,Dr. Singh,,,29911.5,109.0,Unknown,9876543210.0,Nagpur,Discharged
+P361,Raj Sharma,46.0,F,Cardiology,Dr. Mehta,,,37406.0,109.0,Good,9876543210.0,Mumbai,Admitted
+P362,Ananya,46.0,F,Orthopedics,Dr. Rao,,,29911.5,109.0,Exellent,Unknown,Nagpur,Admitted
+P363,Farhan,42.0,M,Gynecology,Dr. Mehta,2023-08-22,,42857.0,109.0,Exellent,Unknown,Pune,Inpatient
+P364,Farhan,48.0,F,Cardiology,Dr. Mehta,,,29911.5,231.0,Average,Unknown,Mumbai,Inpatient
+P365,Reena,46.0,M,Dermatology,Dr. Rao,2023-07-11,,40193.0,289.0,Good,9988776655.0,Nagpur,Discharged
+P366,Reena,46.0,F,Orthopedics,Dr. Singh,,,29911.5,109.0,Excellent,9988776655.0,Mumbai,Discharged
+P367,Manoj,46.0,F,Orthopedics,Dr. Mehta,2023-07-06,,29911.5,109.0,Exellent,Unknown,Nagpur,Inpatient
+P368,Meena,46.0,M,Dermatology,Dr. Sharma,2023-07-29,,29911.5,384.0,Unknown,Unknown,Mumbai,Discharged
+P369,S. Patel,46.0,M,Orthopedics,Dr. Rao,,,13809.0,109.0,Unknown,9876543210.0,Pune,Inpatient
+P370,Vikas,46.0,F,Gynecology,Dr. Mehta,2023-09-12,,29911.5,347.0,Exellent,976543210.0,Delhi,Admitted
+P371,Ananya,70.0,F,Orthopedics,Dr. Singh,,,29911.5,227.0,Unknown,Unknown,Nagpur,Admitted
+P372,Simran,41.0,M,Orthopedics,Dr. Rao,2023-01-08,,48156.0,109.0,Average,9876543210.0,Mumbai,Inpatient
+P373,Farhan,46.0,F,Cardiology,Dr. Singh,,,35568.0,109.0,Exellent,Unknown,Nagpur,Admitted
+P374,Raj Sharma,21.0,F,Dermatology,Dr. Singh,,,41740.0,108.0,Average,Unknown,Pune,Admitted
+P375,Farhan,57.0,M,Gynecology,Dr. Rao,,,29911.5,109.0,Good,9988776655.0,Delhi,Discharged
+P376,Raj Sharma,59.0,M,Gynecology,Dr. Mehta,,,35007.0,221.0,Exellent,Unknown,Mumbai,Admitted
+P377,Aisha Khan,46.0,M,Cardiology,Dr. Sharma,2023-02-15,,22846.0,109.0,Good,9876543210.0,Nagpur,Discharged
+P378,Ali,46.0,F,Gynecology,Dr. Rao,,2023-10-28,29911.5,109.0,Unknown,9988776655.0,Delhi,Discharged
+P379,Neha,46.0,M,Cardiology,Dr. Singh,,,29911.5,293.0,Exellent,976543210.0,Pune,Admitted
+P380,Farhan,46.0,F,Orthopedics,Dr. Mehta,,,29911.5,109.0,Unknown,Unknown,Nagpur,Inpatient
+P381,Simran,46.0,M,Cardiology,Dr. Rao,2023-12-14,,29911.5,109.0,Good,9988776655.0,Delhi,Admitted
+P382,Neha,70.0,F,Orthopedics,Dr. Mehta,2023-03-13,,15759.0,204.0,Good,976543210.0,Pune,Inpatient
+P383,S. Patel,46.0,M,Neurology,Dr. Rao,2023-07-27,,29911.5,109.0,Exellent,Unknown,Nagpur,Inpatient
+P384,Aditya,46.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Average,9876543210.0,Mumbai,Discharged
+P385,Raj Sharma,46.0,M,Neurology,Dr. Iyer,2023-10-26,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P386,Manoj,46.0,F,Orthopedics,Dr. Rao,,,36448.0,109.0,Good,Unknown,Pune,Inpatient
+P387,Rohit,46.0,M,Cardiology,Dr. Mehta,,,29911.5,109.0,Unknown,Unknown,Delhi,Inpatient
+P388,S. Patel,46.0,F,Gynecology,Dr. Mehta,,,29911.5,109.0,Unknown,976543210.0,Pune,Discharged
+P389,Simran,46.0,M,Orthopedics,Dr. Iyer,,2023-09-21,29911.5,109.0,Good,9876543210.0,Nagpur,Admitted
+P390,Aditya,46.0,M,Neurology,Dr. Iyer,2023-03-23,,29911.5,286.0,Exellent,976543210.0,Nagpur,Admitted
+P391,Vikas,59.0,F,Gynecology,Dr. Mehta,2023-11-13,,29911.5,283.0,Excellent,Unknown,Mumbai,Discharged
+P392,Raj Sharma,46.0,M,Orthopedics,Dr. Iyer,,,29911.5,109.0,Unknown,Unknown,Pune,Discharged
+P393,Aditya,46.0,F,Cardiology,Dr. Singh,,,29911.5,349.0,Unknown,Unknown,Pune,Inpatient
+P394,Meena,46.0,F,Dermatology,Dr. Sharma,2023-10-13,,14074.0,109.0,Good,Unknown,Nagpur,Admitted
+P395,Simran,46.0,M,Orthopedics,Dr. Mehta,,,29911.5,109.0,Excellent,976543210.0,Delhi,Inpatient
+P396,Ananya,62.0,F,Cardiology,Dr. Mehta,,,29911.5,109.0,Unknown,Unknown,Delhi,Admitted
+P397,Neha,46.0,F,Gynecology,Dr. Rao,,,22587.0,109.0,Exellent,9876543210.0,Pune,Admitted
+P398,Ananya,46.0,M,Cardiology,Dr. Mehta,,,41086.0,109.0,Good,Unknown,Mumbai,Admitted
+P399,Ananya,46.0,M,Neurology,Dr. Iyer,2023-07-15,,13518.0,109.0,Unknown,9876543210.0,Delhi,Admitted
+P400,Ali,46.0,F,Orthopedics,Dr. Singh,,,24740.0,109.0,Excellent,Unknown,Nagpur,Discharged
+P401,Ali,46.0,F,Orthopedics,Dr. Iyer,,,29911.5,109.0,Good,9876543210.0,Nagpur,Admitted
+P402,Sonal,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Unknown,9876543210.0,Mumbai,Inpatient
+P403,Ananya,46.0,M,Gynecology,Dr. Mehta,2023-11-22,,29911.5,109.0,Excellent,Unknown,Mumbai,Discharged
+P404,Pooja,46.0,M,Cardiology,Dr. Mehta,2023-01-14,,29911.5,224.0,Good,9876543210.0,Pune,Inpatient
+P405,Raj Sharma,46.0,M,Dermatology,Dr. Singh,,,23881.0,109.0,Good,976543210.0,Mumbai,Discharged
+P406,Manoj,46.0,M,Neurology,Dr. Mehta,,,29911.5,109.0,Unknown,9876543210.0,Mumbai,Inpatient
+P407,Meena,46.0,M,Orthopedics,Dr. Mehta,,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P408,Farhan,46.0,M,Neurology,Dr. Singh,,,26078.0,204.0,Unknown,976543210.0,Nagpur,Admitted
+P409,Aditya,46.0,F,Orthopedics,Dr. Singh,2023-05-31,,29911.5,109.0,Good,Unknown,Mumbai,Admitted
+P410,Aisha Khan,46.0,M,Dermatology,Dr. Iyer,,,29911.5,109.0,Excellent,976543210.0,Pune,Admitted
+P411,Simran,46.0,M,Orthopedics,Dr. Mehta,2023-10-03,2023-10-27,20693.0,109.0,Exellent,9988776655.0,Delhi,Discharged
+P412,Ananya,46.0,F,Gynecology,Dr. Mehta,,,29911.5,109.0,Average,9988776655.0,Pune,Admitted
+P413,Rohit,46.0,F,Cardiology,Dr. Singh,2023-08-20,,29911.5,109.0,Good,9988776655.0,Mumbai,Admitted
+P414,Aditya,46.0,F,Dermatology,Dr. Singh,,,9940.0,109.0,Average,976543210.0,Delhi,Admitted
+P415,S. Patel,46.0,M,Cardiology,Dr. Mehta,,2023-02-07,33095.0,109.0,Good,Unknown,Nagpur,Discharged
+P416,S. Patel,46.0,M,Gynecology,Dr. Singh,2023-06-28,,22194.0,109.0,Average,9876543210.0,Pune,Admitted
+P417,Rohit,46.0,F,Neurology,Dr. Mehta,,,29911.5,109.0,Excellent,9988776655.0,Nagpur,Discharged
+P418,Simran,56.0,F,Gynecology,Dr. Sharma,2023-11-28,,29911.5,109.0,Exellent,976543210.0,Nagpur,Discharged
+P419,Meena,46.0,M,Dermatology,Dr. Rao,,,29911.5,109.0,Good,Unknown,Nagpur,Discharged
+P420,Farhan,46.0,F,Cardiology,Dr. Iyer,,,29911.5,109.0,Exellent,Unknown,Mumbai,Inpatient
+P421,S. Patel,46.0,M,Cardiology,Dr. Rao,2023-02-14,,22282.0,109.0,Unknown,976543210.0,Mumbai,Discharged
+P422,Aisha Khan,46.0,M,Orthopedics,Dr. Sharma,,,36602.0,109.0,Average,9988776655.0,Nagpur,Discharged
+P423,Raj Sharma,46.0,M,Cardiology,Dr. Rao,2023-11-30,,14985.0,109.0,Good,9876543210.0,Pune,Discharged
+P424,Neha,22.0,M,Dermatology,Dr. Rao,,,12064.0,109.0,Excellent,9988776655.0,Mumbai,Discharged
+P425,Aisha Khan,46.0,F,Cardiology,Dr. Mehta,,,29911.5,344.0,Good,Unknown,Mumbai,Admitted
+P426,Sara,46.0,M,Gynecology,Dr. Mehta,,,21777.0,109.0,Exellent,976543210.0,Delhi,Admitted
+P427,S. Patel,22.0,F,Orthopedics,Dr. Singh,,,29911.5,239.0,Excellent,9988776655.0,Pune,Discharged
+P428,S. Patel,46.0,M,Cardiology,Dr. Singh,,,24254.0,129.0,Good,976543210.0,Nagpur,Admitted
+P429,Sara,41.0,F,Gynecology,Dr. Singh,,,31429.0,109.0,Good,Unknown,Mumbai,Discharged
+P430,S. Patel,46.0,M,Orthopedics,Dr. Mehta,2023-10-21,,29911.5,175.0,Average,9988776655.0,Delhi,Inpatient
+P431,Ali,46.0,M,Orthopedics,Dr. Rao,,,29911.5,109.0,Unknown,9876543210.0,Nagpur,Discharged
+P432,S. Patel,46.0,M,Gynecology,Dr. Sharma,2023-03-10,,29911.5,109.0,Unknown,976543210.0,Mumbai,Discharged
+P433,Manoj,46.0,F,Orthopedics,Dr. Singh,2023-01-11,,29911.5,109.0,Good,976543210.0,Delhi,Discharged
+P434,Ananya,46.0,M,Dermatology,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Pune,Discharged
+P435,Raj Sharma,46.0,F,Cardiology,Dr. Rao,2023-12-28,,29911.5,109.0,Excellent,Unknown,Nagpur,Admitted
+P436,S. Patel,46.0,M,Neurology,Dr. Singh,,,23531.0,240.0,Unknown,9876543210.0,Delhi,Discharged
+P437,Aisha Khan,46.0,F,Cardiology,Dr. Singh,2023-10-28,,29911.5,109.0,Excellent,9988776655.0,Mumbai,Admitted
+P438,Sonal,46.0,M,Orthopedics,Dr. Mehta,,,29911.5,109.0,Unknown,Unknown,Delhi,Discharged
+P439,Ali,46.0,M,Neurology,Dr. Rao,,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P440,Neha,46.0,F,Neurology,Dr. Rao,,,29911.5,109.0,Unknown,9876543210.0,Mumbai,Admitted
+P441,Pooja,44.0,F,Gynecology,Dr. Sharma,,,29911.5,109.0,Unknown,976543210.0,Delhi,Discharged
+P442,Raj Sharma,46.0,F,Gynecology,Dr. Singh,2023-07-22,,29911.5,346.0,Good,Unknown,Delhi,Admitted
+P443,Ali,46.0,M,Gynecology,Dr. Rao,,,44095.0,275.0,Exellent,Unknown,Mumbai,Admitted
+P444,Simran,46.0,F,Neurology,Dr. Mehta,,,29911.5,109.0,Good,Unknown,Pune,Discharged
+P445,Raj Sharma,46.0,M,Neurology,Dr. Rao,2023-05-25,,38228.0,109.0,Unknown,976543210.0,Nagpur,Discharged
+P446,Farhan,46.0,F,Dermatology,Dr. Mehta,,,40405.0,109.0,Good,9988776655.0,Nagpur,Discharged
+P447,Manoj,22.0,M,Orthopedics,Dr. Rao,,,44137.0,250.0,Excellent,Unknown,Delhi,Discharged
+P448,Rohit,46.0,F,Dermatology,Dr. Rao,,,29911.5,109.0,Good,9988776655.0,Nagpur,Admitted
+P449,Meena,57.0,F,Dermatology,Dr. Rao,,,29911.5,270.0,Excellent,Unknown,Nagpur,Discharged
+P450,Priya,48.0,M,Orthopedics,Dr. Singh,2023-06-28,,40594.0,106.0,Unknown,Unknown,Nagpur,Discharged
+P451,S. Patel,46.0,M,Orthopedics,Dr. Mehta,,,29866.0,109.0,Average,Unknown,Nagpur,Inpatient
+P452,Sonal,46.0,F,Cardiology,Dr. Iyer,,,29911.5,241.0,Average,976543210.0,Nagpur,Discharged
+P453,Aisha Khan,46.0,M,Neurology,Dr. Iyer,,,29911.5,109.0,Excellent,9988776655.0,Delhi,Admitted
+P454,Simran,46.0,M,Cardiology,Dr. Sharma,2023-11-27,,29911.5,109.0,Good,Unknown,Pune,Discharged
+P455,Manoj,46.0,F,Neurology,Dr. Singh,,,29911.5,249.0,Good,976543210.0,Pune,Inpatient
+P456,Ali,46.0,M,Orthopedics,Dr. Rao,2023-11-08,,29911.5,109.0,Good,Unknown,Delhi,Discharged
+P457,S. Patel,69.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Good,9876543210.0,Delhi,Admitted
+P458,Meena,25.0,F,Neurology,Dr. Mehta,2023-11-04,2023-10-09,29911.5,109.0,Unknown,Unknown,Mumbai,Discharged
+P459,Raj Sharma,46.0,M,Orthopedics,Dr. Rao,,,20169.0,109.0,Good,9988776655.0,Delhi,Discharged
+P460,Pooja,62.0,M,Gynecology,Dr. Rao,,,29610.0,196.0,Exellent,9988776655.0,Mumbai,Inpatient
+P461,Ali,46.0,M,Orthopedics,Dr. Rao,,,47433.0,109.0,Unknown,976543210.0,Nagpur,Inpatient
+P462,Raj Sharma,31.0,F,Orthopedics,Dr. Iyer,,2023-06-24,29911.5,109.0,Good,9876543210.0,Nagpur,Admitted
+P463,Sara,46.0,F,Orthopedics,Dr. Singh,2023-02-15,,27027.0,275.0,Exellent,976543210.0,Delhi,Discharged
+P464,Sara,46.0,F,Cardiology,Dr. Iyer,,,40226.0,387.0,Average,Unknown,Pune,Discharged
+P465,Ali,46.0,M,Cardiology,Dr. Singh,2023-07-13,,29911.5,109.0,Good,9988776655.0,Delhi,Discharged
+P466,S. Patel,46.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Average,9988776655.0,Mumbai,Discharged
+P467,S. Patel,60.0,M,Cardiology,Dr. Singh,,,42606.0,109.0,Unknown,Unknown,Pune,Discharged
+P468,Pooja,46.0,M,Orthopedics,Dr. Rao,2023-06-07,,18934.0,109.0,Average,Unknown,Nagpur,Discharged
+P469,Priya,46.0,F,Dermatology,Dr. Mehta,2023-06-06,,29911.5,373.0,Exellent,9876543210.0,Pune,Discharged
+P470,Aisha Khan,46.0,M,Cardiology,Dr. Rao,2023-10-15,,29911.5,138.0,Unknown,Unknown,Mumbai,Discharged
+P471,Vikas,46.0,F,Neurology,Dr. Singh,,,29911.5,109.0,Good,9988776655.0,Mumbai,Inpatient
+P472,Raj Sharma,46.0,M,Dermatology,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Pune,Inpatient
+P473,Ali,46.0,F,Orthopedics,Dr. Singh,,,34248.0,109.0,Excellent,Unknown,Mumbai,Admitted
+P474,Neha,46.0,M,Cardiology,Dr. Rao,,,29911.5,397.0,Good,Unknown,Pune,Discharged
+P475,Priya,46.0,F,Orthopedics,Dr. Mehta,2023-10-16,,29207.0,191.0,Average,9876543210.0,Mumbai,Discharged
+P476,Reena,48.0,M,Cardiology,Dr. Rao,2023-03-28,,29911.5,255.0,Unknown,Unknown,Nagpur,Discharged
+P477,Rohit,59.0,F,Gynecology,Dr. Singh,,,29911.5,109.0,Unknown,Unknown,Mumbai,Discharged
+P478,Manoj,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Unknown,Unknown,Nagpur,Discharged
+P479,Reena,46.0,F,Cardiology,Dr. Mehta,2023-11-03,,29911.5,109.0,Good,Unknown,Delhi,Inpatient
+P480,Simran,56.0,F,Cardiology,Dr. Sharma,,,29911.5,165.0,Unknown,9876543210.0,Pune,Discharged
+P481,Vikas,46.0,F,Gynecology,Dr. Sharma,,,29911.5,218.0,Average,9988776655.0,Delhi,Discharged
+P482,Simran,46.0,M,Cardiology,Dr. Sharma,,,29911.5,109.0,Exellent,Unknown,Delhi,Discharged
+P483,Vikas,23.0,M,Neurology,Dr. Singh,2023-10-07,,29911.5,109.0,Good,9876543210.0,Delhi,Discharged
+P484,Sonal,34.0,M,Orthopedics,Dr. Sharma,,,46588.0,109.0,Good,9988776655.0,Delhi,Discharged
+P485,Sonal,66.0,M,Gynecology,Dr. Rao,,,10570.0,353.0,Exellent,9988776655.0,Pune,Discharged
+P486,Rohit,46.0,M,Cardiology,Dr. Rao,,,24939.0,103.0,Good,976543210.0,Nagpur,Discharged
+P487,Meena,46.0,F,Neurology,Dr. Rao,,,24432.0,109.0,Good,976543210.0,Delhi,Admitted
+P488,Sara,46.0,F,Gynecology,Dr. Mehta,2023-05-13,,29911.5,296.0,Average,976543210.0,Delhi,Discharged
+P489,Priya,46.0,F,Orthopedics,Dr. Rao,,,29911.5,152.0,Good,Unknown,Mumbai,Inpatient
+P490,Manoj,46.0,F,Orthopedics,Dr. Singh,,,21511.0,109.0,Unknown,Unknown,Mumbai,Discharged
+P491,Rohit,46.0,M,Gynecology,Dr. Singh,,,29911.5,109.0,Unknown,976543210.0,Nagpur,Admitted
+P492,Pooja,46.0,F,Dermatology,Dr. Rao,,,29911.5,109.0,Unknown,976543210.0,Pune,Admitted
+P493,Raj Sharma,60.0,M,Neurology,Dr. Mehta,,,29911.5,208.0,Good,9876543210.0,Delhi,Inpatient
+P494,Meena,46.0,M,Gynecology,Dr. Iyer,,2023-04-30,11529.0,389.0,Unknown,976543210.0,Pune,Admitted
+P495,Sara,34.0,F,Cardiology,Dr. Mehta,,,29911.5,373.0,Average,9876543210.0,Delhi,Discharged
+P496,Farhan,46.0,M,Dermatology,Dr. Iyer,2023-10-17,2023-01-14,25846.0,109.0,Good,9876543210.0,Delhi,Discharged
+P497,Aisha Khan,32.0,F,Dermatology,Dr. Sharma,,2023-11-06,19882.0,109.0,Good,9988776655.0,Pune,Inpatient
+P498,Sara,46.0,M,Cardiology,Dr. Rao,,,29911.5,109.0,Exellent,9876543210.0,Nagpur,Inpatient
+P499,Rohit,46.0,F,Cardiology,Dr. Rao,,,29911.5,109.0,Good,Unknown,Pune,Admitted
+P500,Reena,46.0,F,Neurology,Dr. Singh,,,43358.0,306.0,Good,9876543210.0,Pune,Discharged
+P501,Farhan,28.0,M,Dermatology,Dr. Singh,,,34150.0,237.0,Exellent,9876543210.0,Mumbai,Discharged
+P502,Reena,46.0,M,Cardiology,Dr. Singh,,2023-08-21,13241.0,109.0,Unknown,Unknown,Mumbai,Discharged
+P503,Neha,61.0,F,Dermatology,Dr. Mehta,2023-04-18,2023-07-11,29911.5,150.0,Exellent,Unknown,Pune,Discharged
+P504,Ali,46.0,F,Neurology,Dr. Singh,,,29911.5,358.0,Unknown,976543210.0,Nagpur,Discharged
+P505,Reena,46.0,M,Gynecology,Dr. Rao,2023-01-13,,44608.0,343.0,Good,976543210.0,Pune,Admitted
+P506,Reena,46.0,M,Orthopedics,Dr. Singh,,,10878.0,109.0,Good,9988776655.0,Mumbai,Discharged
+P507,Raj Sharma,46.0,M,Neurology,Dr. Sharma,2023-09-18,,44782.0,109.0,Unknown,Unknown,Mumbai,Discharged
+P508,Pooja,46.0,F,Gynecology,Dr. Singh,,,29911.5,221.0,Exellent,9876543210.0,Mumbai,Admitted
+P509,S. Patel,46.0,M,Gynecology,Dr. Mehta,2023-01-24,,29911.5,109.0,Good,976543210.0,Delhi,Inpatient
+P510,Manoj,46.0,F,Dermatology,Dr. Mehta,,,29911.5,109.0,Good,9876543210.0,Delhi,Discharged
+P511,Sonal,41.0,F,Gynecology,Dr. Singh,,,38934.0,109.0,Good,976543210.0,Mumbai,Discharged
+P512,Neha,46.0,M,Neurology,Dr. Singh,,,29911.5,109.0,Good,976543210.0,Delhi,Admitted
+P513,Ali,46.0,M,Neurology,Dr. Singh,2023-01-12,,29911.5,146.0,Average,9988776655.0,Pune,Discharged
+P514,S. Patel,46.0,M,Neurology,Dr. Singh,,,29911.5,109.0,Good,9988776655.0,Delhi,Admitted
+P515,Ananya,46.0,M,Neurology,Dr. Singh,2023-04-13,,26686.0,267.0,Good,Unknown,Nagpur,Admitted
+P516,Ali,46.0,M,Gynecology,Dr. Sharma,,,29911.5,109.0,Exellent,9876543210.0,Delhi,Discharged
+P517,Farhan,46.0,M,Cardiology,Dr. Singh,,,29911.5,152.0,Good,Unknown,Mumbai,Inpatient
+P518,Meena,46.0,F,Gynecology,Dr. Singh,,,37901.0,109.0,Unknown,9876543210.0,Mumbai,Inpatient
+P519,Neha,46.0,F,Dermatology,Dr. Rao,,,26986.0,109.0,Exellent,Unknown,Nagpur,Inpatient
+P520,Reena,46.0,F,Dermatology,Dr. Iyer,2023-10-18,,47740.0,109.0,Excellent,976543210.0,Delhi,Inpatient
+P521,Pooja,28.0,F,Cardiology,Dr. Singh,,,32219.0,109.0,Unknown,Unknown,Nagpur,Discharged
+P522,Reena,46.0,F,Dermatology,Dr. Rao,,,29911.5,109.0,Excellent,9988776655.0,Mumbai,Discharged
+P523,Manoj,46.0,M,Dermatology,Dr. Singh,,,29911.5,109.0,Average,9988776655.0,Mumbai,Admitted
+P524,Ananya,21.0,F,Orthopedics,Dr. Singh,2023-03-06,,36662.0,319.0,Good,Unknown,Delhi,Admitted
+P525,Manoj,46.0,F,Gynecology,Dr. Mehta,,,29911.5,116.0,Unknown,9988776655.0,Delhi,Discharged
+P526,Farhan,46.0,M,Orthopedics,Dr. Iyer,,2023-08-16,29911.5,325.0,Unknown,976543210.0,Delhi,Admitted
+P527,Aisha Khan,41.0,F,Gynecology,Dr. Iyer,,,29911.5,109.0,Good,976543210.0,Mumbai,Admitted
+P528,Farhan,46.0,M,Neurology,Dr. Mehta,2023-12-16,,29911.5,111.0,Exellent,976543210.0,Delhi,Inpatient
+P529,Reena,46.0,F,Neurology,Dr. Singh,,,48885.0,109.0,Good,Unknown,Delhi,Discharged
+P530,Reena,26.0,F,Gynecology,Dr. Sharma,,,40724.0,109.0,Unknown,Unknown,Delhi,Admitted
+P531,Meena,46.0,M,Dermatology,Dr. Iyer,2023-12-02,,29911.5,109.0,Good,Unknown,Pune,Inpatient
+P532,Pooja,68.0,M,Cardiology,Dr. Singh,,,29911.5,109.0,Average,Unknown,Pune,Discharged
+P533,Manoj,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Excellent,9988776655.0,Mumbai,Discharged
+P534,S. Patel,21.0,F,Cardiology,Dr. Rao,,,35374.0,191.0,Average,9876543210.0,Mumbai,Admitted
+P535,Reena,46.0,M,Gynecology,Dr. Singh,2023-04-03,,29911.5,109.0,Unknown,9876543210.0,Mumbai,Discharged
+P536,Ananya,46.0,F,Cardiology,Dr. Rao,2023-04-08,,29911.5,259.0,Good,Unknown,Nagpur,Admitted
+P537,Rohit,46.0,F,Cardiology,Dr. Singh,,,29911.5,109.0,Good,9876543210.0,Mumbai,Discharged
+P538,Simran,34.0,F,Neurology,Dr. Iyer,,,29911.5,327.0,Average,9876543210.0,Nagpur,Discharged
+P539,S. Patel,46.0,F,Gynecology,Dr. Rao,,,29911.5,109.0,Excellent,9988776655.0,Nagpur,Inpatient
+P540,Aditya,46.0,M,Gynecology,Dr. Iyer,,,29911.5,347.0,Exellent,Unknown,Nagpur,Inpatient
+P541,Aditya,46.0,F,Cardiology,Dr. Iyer,,,20315.0,109.0,Unknown,Unknown,Nagpur,Inpatient
+P542,Rohit,46.0,F,Cardiology,Dr. Mehta,2023-09-07,,30009.0,109.0,Unknown,Unknown,Pune,Discharged
+P543,S. Patel,46.0,M,Dermatology,Dr. Singh,,2023-06-07,29911.5,109.0,Average,9988776655.0,Pune,Discharged
+P544,Pooja,20.0,M,Dermatology,Dr. Rao,,,29911.5,109.0,Excellent,9876543210.0,Pune,Inpatient
+P545,Vikas,46.0,M,Gynecology,Dr. Rao,2023-04-24,,29911.5,312.0,Good,9988776655.0,Delhi,Admitted
+P546,Aisha Khan,46.0,F,Cardiology,Dr. Iyer,2023-09-16,,29911.5,109.0,Good,9876543210.0,Pune,Discharged
+P547,Pooja,46.0,M,Gynecology,Dr. Singh,,,16361.0,109.0,Excellent,9988776655.0,Nagpur,Admitted
+P548,Raj Sharma,46.0,F,Cardiology,Dr. Rao,2023-11-09,,29911.5,109.0,Good,Unknown,Mumbai,Inpatient
+P549,Meena,46.0,M,Neurology,Dr. Mehta,2023-01-24,,15513.0,109.0,Average,Unknown,Delhi,Discharged

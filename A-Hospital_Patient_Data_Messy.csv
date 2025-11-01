@@ -1,0 +1,550 @@
+Patient_ID,Name,Age,Gender,Department,Doctor,Admission_Date,Discharge_Date,Bill_Amount,Room_No,Feedback,Contact_No,City,Status
+P001,Farhan,,female,ortho,Dr. Rao,,01/06/2023,,,Exellent,,Nagpur,Discharged
+P002,Neha,twenty five,F,Cardiology,Dr. Mehta,11-12-23,,,,Excellent,9876543210,nagpur,admitted
+P003,Rohit,63,M,Neurology,Dr. Rao,29-12-23,-,,,Good,,nagpur,admitted
+P004,Ali,twenty five,F,Cardio.,Dr. Mehta,,,missing,,Exellent,9876543210,delhi,discharged
+P005,Manoj,twenty five,male,Gynae,DR. SINGH,20.12.23,07.12.23,missing,,Excellent,9876543210,nagpur,Discharged
+P006,Manoj,21,female,Cardiology,Dr Rao,,,9643,276,Good,,delhi,discharged
+P007,Rohit,,F,ortho,Dr Mehta,,2023/01/07,missing,NA,Exellent,,Pune,discharged
+P008,Vikas,,F,Orthopedics,Dr. Singh,18-11-23,-,,NA,Good,976543210,Nagpur,discharged
+P009,Priya,,Female,Dermatology,Dr Mehta,,,20797,,,,delhi,Inpatient
+P010,Priya,twenty five,male,Gynae,Dr. Rao,27.01.23,,29957 ,NA,Exellent,,mumbai,Inpatient
+P011,Raj Sharma,,female,Neurology,Dr Mehta,12-07-23,23-07-23,,,,,Nagpur,admitted
+P012,Manoj,,male,Gynae,Dr. Singh,,,missing,NA,good,976543210,Pune,Discharged
+P013,Vikas,twenty five,F,ortho,Dr. Sharma,,2023/09/17,11899₹,143,Good,9876543210,Mumbai,Discharged
+P014,S. Patel,twenty five,Male,Dermatology,Dr. Rao,,08.08.23,36519,,Excellent,9876543210,Nagpur,Discharged
+P015,Aisha Khan,,female,Cardio.,DR. SINGH,2023/12/08,20.07.23,47579,,Exellent,9876543210,mumbai,discharged
+P016,Reena,43,male,Gynae,Dr. Iyer,07-07-23,-,40525,NA,Excellent,,delhi,Inpatient
+P017,Manoj,,Male,Orthopedics,Dr Mehta,,,10152,NA,average,9988776655,mumbai,admitted
+P018,Sonal,62,Male,Gynacology,Dr. Rao,,,21387,,Excellent,,delhi,discharged
+P019,Manoj,twenty five,Male,ortho,Dr. Sharma,11/06/2023,21/04/2023,14531,396,average,976543210,Delhi,Inpatient
+P020,Vikas,,Male,Neuro,Dr Mehta,09.06.23,-,"35034,",,Good,976543210,Nagpur,Inpatient
+P021,Meena,60,M,Gynacology,Dr. Mehta,,-,22260,,NA,,Nagpur,Inpatient
+P022,Neha,,M,Cardiology,Dr. Iyer,,,missing,,,,Nagpur,Inpatient
+P023,Aisha Khan,twenty five,Male,ortho,Dr. Iyer,,,,,Excellent,,Delhi,Inpatient
+P024,Sonal,,M,Cardiology,Dr. Sharma,2023/12/27,12-12-23,,,Excellent,9988776655,Pune,admitted
+P025,Priya,41,male,Dermatology,Dr. Sharma,,,47244,,Exellent,,Mumbai,admitted
+P026,Pooja,,Female,ortho,Dr. Singh,13/02/2023,-,missing,352,good,9876543210,Delhi,Inpatient
+P027,Vikas,,M,Neurology,DR. SINGH,,-,9346,183,Good,976543210,Nagpur,Discharged
+P028,Vikas,,Female,Dermatology,DR. SINGH,,-,,,NA,976543210,Nagpur,admitted
+P029,Sara,twenty five,Female,Cardiology,Dr. Singh,,13-03-23,missing,,Exellent,,Mumbai,discharged
+P030,Aisha Khan,twenty five,male,ortho,Dr Rao,,,31304,260,Exellent,,nagpur,Discharged
+P031,Ali,,Female,Dermatology,Dr Mehta,,-,,NA,Exellent,9988776655,Mumbai,discharged
+P032,Aisha Khan,42,F,Neurology,Dr. Sharma,,-,21487₹,,NA,,delhi,admitted
+P033,Aditya,,F,Cardio.,DR. SINGH,19-09-23,,45232,NA,,,delhi,Inpatient
+P034,Rohit,,F,Orthopedics,Dr. Mehta,24.07.23,20-05-23,16583,,good,9876543210,mumbai,admitted
+P035,Pooja,,Female,Neurology,DR. SINGH,22.08.23,,33602,,Good,976543210,nagpur,Inpatient
+P036,Pooja,,female,Gynae,DR. SINGH,,2023/11/23,,NA,good,9988776655,mumbai,discharged
+P037,Vikas,,F,Gynacology,Dr. Mehta,,26/09/2023,33848,376,good,9988776655,Delhi,admitted
+P038,Meena,,F,cardio,Dr Rao,,17/12/2023,,,Excellent,9876543210,Mumbai,Discharged
+P039,Priya,twenty five,male,Dermatology,Dr. Mehta,2023/10/29,26-11-23,19202 ,,average,9876543210,Mumbai,discharged
+P040,Raj Sharma,twenty five,F,Neurology,Dr Mehta,,,,,NA,9988776655,Delhi,admitted
+P041,Farhan,,F,Cardio.,DR. SINGH,,,,,Excellent,,delhi,Discharged
+P042,Simran,twenty five,female,Neuro,Dr. Singh,,31.07.23,,,,9876543210,nagpur,Inpatient
+P043,Rohit,,female,Cardiology,DR. SINGH,,,missing,173,Good,,delhi,admitted
+P044,Meena,twenty five,M,Gynae,Dr. Iyer,27/04/2023,2023/07/22,missing,,,9876543210,Mumbai,discharged
+P045,Meena,,female,Neurology,Dr. Singh,04.01.23,-,,,Exellent,9988776655,mumbai,Discharged
+P046,Sonal,59,female,Cardio.,Dr. Rao,,,36935,,average,,nagpur,Discharged
+P047,Simran,,female,Neurology,Dr Mehta,,,45261,NA,Good,9988776655,pune,admitted
+P048,Manoj,,M,ortho,Dr. Singh,,-,missing,NA,good,976543210,nagpur,discharged
+P049,Reena,45,male,ortho,Dr. Mehta,,-,41438,,good,,Delhi,Inpatient
+P050,Reena,,M,Cardiology,Dr. Iyer,,22.12.23,"46592,",,Excellent,9876543210,nagpur,Discharged
+P051,Vikas,,M,ortho,Dr Mehta,,-,missing,376,Good,,Mumbai,discharged
+P052,Vikas,59,male,Cardiology,DR. SINGH,,-,,,NA,976543210,delhi,Inpatient
+P053,Sonal,48,F,Dermatology,Dr. Mehta,,2023/09/02,38446,,Excellent,,Mumbai,discharged
+P054,Meena,twenty five,Male,Gynacology,Dr. Singh,,,42584,,Exellent,,Pune,discharged
+P055,S. Patel,,Female,Cardio.,Dr. Singh,,,,175,Excellent,,pune,Discharged
+P056,Reena,,M,Gynacology,Dr Rao,,30-04-23,31796,,NA,,nagpur,Discharged
+P057,Aisha Khan,,Female,Cardiology,DR. SINGH,,,"28286,",,average,9988776655,mumbai,Inpatient
+P058,Vikas,twenty five,male,cardio,Dr. Singh,,-,,NA,Exellent,976543210,mumbai,discharged
+P059,Pooja,,Female,Neurology,Dr Mehta,06-04-23,,,,,976543210,pune,admitted
+P060,Reena,twenty five,F,Gynacology,Dr Rao,,,,NA,average,,Delhi,Inpatient
+P061,Farhan,twenty five,F,Gynae,Dr. Mehta,28-01-23,24-03-23,missing,288,Excellent,9876543210,pune,discharged
+P062,Vikas,twenty five,M,Neuro,Dr. Rao,,,,NA,,9988776655,Nagpur,Discharged
+P063,Meena,20,M,cardio,Dr Rao,,-,,NA,average,9988776655,pune,discharged
+P064,Farhan,,Female,Orthopedics,Dr. Iyer,,-,,,average,,Delhi,Discharged
+P065,Ananya,,M,Cardio.,Dr. Iyer,19.02.23,,38191,NA,average,976543210,Mumbai,Inpatient
+P066,Meena,twenty five,male,Neurology,Dr. Sharma,,,missing,,Excellent,9876543210,nagpur,discharged
+P067,Sara,twenty five,F,cardio,Dr. Mehta,,,"13161,",,Good,9988776655,nagpur,Discharged
+P068,Sara,,M,Neurology,Dr. Mehta,25/07/2023,,,,,976543210,nagpur,Inpatient
+P069,Sara,twenty five,male,Neurology,DR. SINGH,,,,,NA,976543210,delhi,Discharged
+P070,Aisha Khan,49,male,cardio,Dr. Mehta,,-,,NA,NA,,delhi,admitted
+P071,Aditya,65,M,Cardio.,Dr. Singh,,-,,,Exellent,,Nagpur,Inpatient
+P072,Sara,,female,Cardio.,Dr. Rao,,23.01.23,47292₹,,average,9988776655,delhi,Inpatient
+P073,Ananya,,Female,Gynacology,Dr. Iyer,07.02.23,-,,NA,Exellent,9988776655,pune,Inpatient
+P074,Aisha Khan,,F,Orthopedics,Dr Mehta,,,,214,average,,Nagpur,Inpatient
+P075,Vikas,35,F,Orthopedics,Dr. Mehta,,-,,342,NA,,Pune,admitted
+P076,Ananya,,Male,Neuro,Dr Rao,,,19088,NA,,9988776655,mumbai,Discharged
+P077,Ananya,45,female,cardio,Dr. Mehta,,-,49578,,,9988776655,pune,discharged
+P078,Ananya,65,male,Neurology,Dr. Singh,,,,,Excellent,976543210,mumbai,Discharged
+P079,Raj Sharma,69,F,Gynae,DR. SINGH,,-,34497,361,Exellent,,Mumbai,discharged
+P080,Ananya,,Male,Dermatology,Dr. Mehta,23.01.23,,,,NA,9876543210,mumbai,Discharged
+P081,Vikas,twenty five,male,Orthopedics,Dr. Iyer,,16-05-23,missing,,average,,Pune,Discharged
+P082,Manoj,twenty five,female,Orthopedics,Dr Rao,,-,missing,NA,,,pune,Inpatient
+P083,Manoj,,female,Neuro,Dr. Singh,17.12.23,28/04/2023,9814,,,9876543210,nagpur,discharged
+P084,Farhan,,M,Gynae,Dr. Iyer,,-,"41936,",NA,NA,,Nagpur,admitted
+P085,Sonal,,F,ortho,Dr. Iyer,2023/02/09,,47322,354,good,976543210,Pune,Discharged
+P086,Meena,,F,Cardio.,Dr. Singh,,2023/08/05,14397,NA,Good,9988776655,delhi,Discharged
+P087,Ali,47,M,Dermatology,Dr Rao,,,,,NA,976543210,Pune,Discharged
+P088,Simran,,Female,Dermatology,Dr. Rao,,,missing,NA,good,,Pune,admitted
+P089,Meena,twenty five,Female,Neurology,Dr. Singh,,,,,Good,,Nagpur,discharged
+P090,Ananya,66,female,Dermatology,Dr. Sharma,,2023/05/24,33505,386,Excellent,,Pune,discharged
+P091,Farhan,,M,Gynacology,DR. SINGH,,2023/07/15,45611,NA,NA,9988776655,delhi,Discharged
+P092,Ali,twenty five,Female,Dermatology,Dr. Mehta,07/01/2023,,,173,,976543210,mumbai,Inpatient
+P093,Aisha Khan,,female,cardio,Dr Mehta,29.10.23,,,293,good,9988776655,mumbai,Discharged
+P094,Aisha Khan,twenty five,male,Cardiology,Dr Rao,,-,,172,good,9988776655,Pune,Discharged
+P095,Reena,48,F,Cardio.,Dr Rao,16/04/2023,,,NA,Good,,Pune,Discharged
+P096,Aisha Khan,,Male,Gynae,Dr. Sharma,,30-03-23,,,average,9876543210,Nagpur,Discharged
+P097,Sara,,F,Cardiology,Dr. Singh,,,,NA,Excellent,976543210,mumbai,Inpatient
+P098,Pooja,,male,Cardiology,Dr. Iyer,01.08.23,02.06.23,,252,Good,9988776655,delhi,Discharged
+P099,Neha,,Male,ortho,Dr. Sharma,,,,NA,Exellent,,Delhi,discharged
+P100,Aisha Khan,,female,Cardiology,Dr Rao,,09.12.23,missing,,,,delhi,Discharged
+P101,Priya,,male,Neurology,Dr. Rao,2023/02/24,-,,,Good,9876543210,Mumbai,Discharged
+P102,Farhan,,M,ortho,DR. SINGH,08.10.23,25-01-23,,NA,,9876543210,Nagpur,admitted
+P103,Aisha Khan,36,male,Dermatology,Dr Rao,,,missing,,Good,9988776655,mumbai,Discharged
+P104,Simran,twenty five,M,ortho,Dr. Rao,,,33234,NA,NA,9988776655,Mumbai,admitted
+P105,Ali,,M,ortho,Dr. Mehta,21/02/2023,-,missing,,good,,mumbai,admitted
+P106,Simran,,female,Gynacology,Dr. Sharma,29.05.23,,missing,,NA,976543210,Pune,discharged
+P107,Vikas,twenty five,female,Gynae,Dr. Sharma,,,,NA,good,9876543210,Nagpur,Discharged
+P108,Sara,61,Female,Cardiology,Dr. Iyer,,-,,340,Exellent,976543210,mumbai,Discharged
+P109,Sonal,twenty five,Male,ortho,Dr. Singh,,,40043,216,NA,,pune,Inpatient
+P110,Priya,,female,cardio,Dr Rao,,,37917₹,,Exellent,976543210,Mumbai,Inpatient
+P111,Pooja,,M,Gynae,DR. SINGH,,-,38848,237,NA,976543210,Mumbai,Discharged
+P112,Manoj,,M,Dermatology,Dr. Sharma,,,40259,NA,Excellent,9988776655,nagpur,Inpatient
+P113,Farhan,,Male,Cardio.,Dr. Singh,,,,169,Excellent,,delhi,Discharged
+P114,S. Patel,,Female,Gynacology,Dr. Iyer,,,32121,,Good,976543210,nagpur,discharged
+P115,Manoj,,M,cardio,Dr. Sharma,,,39007,177,average,9988776655,mumbai,admitted
+P116,Ali,,Female,Orthopedics,Dr. Iyer,,,40122,103,average,,delhi,admitted
+P117,Farhan,,M,ortho,Dr. Rao,,08-08-23,,NA,NA,976543210,mumbai,Discharged
+P118,Pooja,52,M,Dermatology,Dr. Iyer,,,44917,,Excellent,976543210,nagpur,Inpatient
+P119,Vikas,twenty five,male,Dermatology,Dr Mehta,07-03-23,,13514,,Excellent,9988776655,pune,Discharged
+P120,Ananya,,male,Cardio.,Dr Rao,,,37336,,Exellent,,mumbai,admitted
+P121,Ananya,30,female,Cardio.,Dr Rao,,,missing,,NA,9988776655,pune,discharged
+P122,Raj Sharma,34,F,ortho,DR. SINGH,10-09-23,,"18706,",,Good,,nagpur,admitted
+P123,Meena,,male,Gynae,Dr Mehta,,,21588₹,,average,976543210,Delhi,admitted
+P124,Aisha Khan,,F,cardio,Dr Rao,,17/05/2023,,,average,9988776655,mumbai,discharged
+P125,Farhan,twenty five,Male,Orthopedics,Dr Rao,,-,,,NA,976543210,nagpur,admitted
+P126,Pooja,,F,Gynae,DR. SINGH,2023/04/20,14/08/2023,missing,230,Excellent,9988776655,Mumbai,admitted
+P127,Ali,,Female,cardio,Dr. Mehta,15-05-23,,,,average,9988776655,nagpur,Discharged
+P128,Manoj,23,female,Gynacology,DR. SINGH,23-12-23,-,,,Good,976543210,Delhi,admitted
+P129,Vikas,27,F,Dermatology,Dr. Singh,,,,,Excellent,,mumbai,Discharged
+P130,Ananya,twenty five,F,Gynae,Dr. Rao,06.10.23,16.12.23,missing,,average,,nagpur,admitted
+P131,Sara,,female,ortho,Dr Mehta,17-07-23,,missing,330,Good,976543210,nagpur,Discharged
+P132,Meena,26,F,cardio,DR. SINGH,20.05.23,-,32451,395,NA,9988776655,nagpur,Inpatient
+P133,Aditya,,Female,cardio,Dr. Sharma,,,missing,NA,Good,,Delhi,discharged
+P134,Manoj,twenty five,male,Cardio.,DR. SINGH,,,missing,NA,Good,,Mumbai,Discharged
+P135,Pooja,,M,ortho,Dr. Sharma,2023/08/11,02/12/2023,missing,353,average,9988776655,Delhi,discharged
+P136,Neha,69,male,Gynacology,Dr. Sharma,,,,NA,Good,976543210,Delhi,discharged
+P137,Ali,47,M,cardio,Dr. Mehta,08-01-23,-,,NA,NA,9876543210,Delhi,Inpatient
+P138,Manoj,,F,Gynacology,Dr. Rao,,-,,NA,good,976543210,Delhi,admitted
+P139,Farhan,,male,Dermatology,Dr. Sharma,08.08.23,,20776,,Exellent,976543210,Delhi,admitted
+P140,Manoj,twenty five,M,Gynae,Dr. Iyer,,25.04.23,8823,,Exellent,9876543210,nagpur,admitted
+P141,Manoj,53,Female,cardio,Dr. Sharma,27-09-23,-,missing,234,Excellent,,mumbai,admitted
+P142,Farhan,59,female,Cardiology,Dr Rao,,-,25171,,Excellent,976543210,nagpur,Discharged
+P143,Reena,twenty five,M,Cardio.,Dr. Mehta,24/12/2023,,,NA,Exellent,976543210,pune,Discharged
+P144,Ananya,,Female,Cardiology,DR. SINGH,,,,268,NA,976543210,pune,Inpatient
+P145,Neha,33,Female,Neuro,Dr. Rao,,21-12-23,34085,282,Excellent,976543210,nagpur,Inpatient
+P146,Simran,twenty five,Male,Cardio.,Dr. Rao,29-04-23,09-05-23,25089,NA,NA,976543210,Delhi,discharged
+P147,Reena,,M,Gynae,Dr Rao,,,missing,NA,Excellent,,pune,admitted
+P148,Aisha Khan,,Female,Orthopedics,Dr Rao,,,20885,231,,9876543210,Nagpur,admitted
+P149,Ananya,,F,Cardio.,DR. SINGH,,-,missing,NA,NA,,delhi,admitted
+P150,Aditya,62,Female,Dermatology,Dr. Sharma,,08.09.23,,,,,Mumbai,admitted
+P151,Neha,,male,Gynae,Dr. Singh,,25-04-23,48770 ,255,average,,Pune,admitted
+P152,Aditya,twenty five,female,Gynacology,DR. SINGH,,,,341,average,,delhi,Discharged
+P153,Simran,,Female,Gynae,Dr. Mehta,2023/10/21,,23489,,Exellent,,nagpur,Inpatient
+P154,Rohit,twenty five,Female,Cardio.,Dr. Rao,,-,,NA,,,nagpur,Discharged
+P155,Simran,68,Female,Neurology,Dr. Rao,01.04.23,-,12397 ,,,,Delhi,admitted
+P156,Raj Sharma,,M,Gynacology,DR. SINGH,22/02/2023,,,158,,,pune,Inpatient
+P157,Vikas,23,Male,Neurology,Dr. Rao,,11.01.23,,,,,Nagpur,discharged
+P158,Rohit,,Female,Orthopedics,Dr Mehta,17.10.23,-,missing,373,good,9988776655,Nagpur,admitted
+P159,S. Patel,,Male,ortho,DR. SINGH,,20-07-23,missing,,NA,,nagpur,discharged
+P160,Sonal,,M,ortho,Dr. Iyer,2023/07/29,,19620,,NA,,Delhi,discharged
+P161,Reena,65,M,Cardio.,Dr. Mehta,,2023/12/01,,NA,Good,,mumbai,Inpatient
+P162,Pooja,twenty five,Male,Neurology,Dr. Singh,,23.10.23,,NA,Excellent,,mumbai,admitted
+P163,Farhan,,M,Gynacology,Dr. Singh,,16-04-23,35919,,NA,976543210,delhi,admitted
+P164,Reena,68,Female,Gynacology,Dr. Singh,,,20173,NA,Excellent,,Delhi,Inpatient
+P165,Aisha Khan,,F,Dermatology,Dr. Rao,,,,286,Exellent,,mumbai,Discharged
+P166,Simran,32,female,ortho,Dr. Singh,,,31441,,Exellent,,nagpur,Discharged
+P167,Vikas,twenty five,male,cardio,DR. SINGH,,05/09/2023,,334,NA,9988776655,Mumbai,Discharged
+P168,Vikas,,female,Orthopedics,Dr Rao,2023/06/27,,,NA,,,Delhi,Inpatient
+P169,Raj Sharma,,F,Dermatology,Dr Mehta,,,,NA,,9876543210,delhi,Inpatient
+P170,Sonal,,female,Gynae,Dr. Sharma,,,,121,NA,,Pune,discharged
+P171,S. Patel,twenty five,male,Orthopedics,Dr. Iyer,,,,,Good,9876543210,Delhi,admitted
+P172,Reena,twenty five,Male,ortho,Dr. Rao,,,,,average,9876543210,Mumbai,Discharged
+P173,Sonal,23,Male,Gynacology,Dr. Sharma,,-,missing,,good,,Delhi,Inpatient
+P174,Raj Sharma,twenty five,Female,Gynae,Dr. Rao,10/01/2023,,15664,NA,average,,nagpur,Inpatient
+P175,Ali,twenty five,male,Gynae,Dr. Rao,,-,,,average,,mumbai,Inpatient
+P176,Priya,51,female,Cardio.,Dr. Rao,,,,,,9876543210,delhi,Inpatient
+P177,Farhan,twenty five,F,Gynae,Dr. Mehta,,02-09-23,27163 ,174,NA,9876543210,nagpur,admitted
+P178,Manoj,twenty five,F,cardio,Dr. Mehta,,,,,,9988776655,Pune,discharged
+P179,Manoj,43,Female,Dermatology,DR. SINGH,,,21397,,,9988776655,nagpur,discharged
+P180,Pooja,20,female,cardio,Dr. Iyer,,2023/03/31,22450₹,109,Good,,Mumbai,admitted
+P181,S. Patel,,F,Gynae,Dr. Rao,,,"34015,",,Exellent,9876543210,Mumbai,Inpatient
+P182,Neha,twenty five,female,Gynacology,Dr Mehta,23/06/2023,-,,,NA,,Pune,admitted
+P183,Sonal,,F,ortho,DR. SINGH,,09/11/2023,missing,,Good,976543210,Nagpur,Discharged
+P184,Raj Sharma,,female,Cardio.,Dr. Sharma,2023/06/14,06.05.23,47919₹,,Exellent,,pune,discharged
+P185,Vikas,twenty five,Male,cardio,Dr. Iyer,,12-05-23,,NA,,9988776655,delhi,discharged
+P186,Simran,,M,Gynacology,Dr Mehta,,,missing,NA,,,delhi,Discharged
+P187,Ananya,,Female,ortho,Dr Rao,,-,missing,,Exellent,,Pune,Inpatient
+P188,Ananya,54,M,Neuro,Dr. Sharma,26/02/2023,-,18298 ,,NA,976543210,Pune,Discharged
+P189,Pooja,twenty five,female,Neurology,Dr Mehta,,,,,Excellent,,nagpur,admitted
+P190,Vikas,26,M,Neuro,Dr. Mehta,,29-12-23,49481,,,9988776655,pune,discharged
+P191,Neha,,male,Dermatology,Dr. Sharma,2023/10/19,,,399,NA,976543210,mumbai,Inpatient
+P192,Farhan,68,male,Orthopedics,Dr Rao,,,,,NA,976543210,Delhi,Inpatient
+P193,Sara,54,Female,Neuro,Dr. Rao,,,missing,,Good,976543210,Delhi,admitted
+P194,Ananya,,F,Orthopedics,Dr Mehta,,,25982,NA,average,,pune,admitted
+P195,Reena,,M,Dermatology,Dr. Singh,,-,24533,,,976543210,Pune,admitted
+P196,Simran,,Female,Neurology,Dr. Iyer,,,"40529,",,good,,pune,Inpatient
+P197,Aisha Khan,twenty five,female,Cardiology,Dr. Singh,,-,45162,299,Good,976543210,Pune,admitted
+P198,Sara,38,Female,Cardio.,Dr Mehta,,13/07/2023,,NA,NA,9988776655,Mumbai,discharged
+P199,Neha,twenty five,male,Cardiology,Dr. Singh,,02/06/2023,missing,,Excellent,,Pune,discharged
+P200,Sonal,twenty five,M,Neurology,Dr. Sharma,,,missing,,,976543210,Delhi,admitted
+P201,Vikas,,F,Dermatology,Dr. Singh,,-,16941 ,,NA,9988776655,Mumbai,Inpatient
+P202,Rohit,,female,Gynacology,Dr. Mehta,,,missing,,Exellent,9988776655,delhi,discharged
+P203,Farhan,,female,Gynae,Dr Rao,,-,,NA,good,9988776655,nagpur,Inpatient
+P204,Meena,twenty five,Female,cardio,DR. SINGH,,,missing,252,,9876543210,Nagpur,discharged
+P205,Neha,,male,Orthopedics,Dr. Mehta,,,missing,NA,Exellent,9876543210,mumbai,Inpatient
+P206,Aisha Khan,58,F,Cardio.,Dr. Mehta,,,,207,Exellent,,nagpur,Discharged
+P207,Reena,45,female,Orthopedics,Dr. Sharma,02-05-23,,21089,,Excellent,,nagpur,discharged
+P208,S. Patel,twenty five,Male,cardio,Dr Rao,,2023/06/11,,,Exellent,9988776655,delhi,Inpatient
+P209,Aditya,twenty five,Female,Neurology,Dr. Iyer,,,missing,NA,NA,976543210,pune,admitted
+P210,Raj Sharma,,M,Gynae,Dr. Rao,16-09-23,,47415,NA,,,pune,Discharged
+P211,Pooja,25,female,Orthopedics,Dr. Sharma,,-,,NA,NA,976543210,pune,Discharged
+P212,Neha,twenty five,F,Neuro,Dr. Rao,,-,,NA,good,,Delhi,Discharged
+P213,Aditya,,male,Neurology,Dr Rao,,12-11-23,,270,Excellent,9876543210,nagpur,Inpatient
+P214,Farhan,twenty five,F,Gynae,Dr. Sharma,,,25310,NA,Good,9988776655,pune,Discharged
+P215,Reena,,M,Gynae,Dr. Mehta,11-12-23,2023/11/25,missing,NA,good,9876543210,Mumbai,admitted
+P216,Rohit,65,male,Gynae,Dr. Rao,03-05-23,-,,,Good,,Nagpur,admitted
+P217,Sara,twenty five,Female,cardio,Dr. Sharma,2023/10/13,,,293,Exellent,9876543210,Nagpur,discharged
+P218,Ananya,,male,Cardio.,Dr. Rao,,,missing,,average,976543210,Nagpur,Inpatient
+P219,Vikas,,Female,Dermatology,DR. SINGH,05.05.23,01-08-23,17089 ,NA,Exellent,,nagpur,discharged
+P220,Farhan,,Female,cardio,Dr Mehta,,2023/12/05,,192,Excellent,,nagpur,admitted
+P221,Meena,,F,Orthopedics,Dr Rao,,-,missing,NA,NA,9876543210,pune,discharged
+P222,Meena,,Female,ortho,Dr Rao,,,12639,NA,Exellent,976543210,nagpur,Discharged
+P223,Sonal,twenty five,F,ortho,Dr. Iyer,,,,,NA,976543210,mumbai,admitted
+P224,S. Patel,twenty five,male,Dermatology,Dr. Rao,,,37065,,,9876543210,Nagpur,Discharged
+P225,Sonal,,female,Neuro,DR. SINGH,,2023/06/16,missing,288,Exellent,9988776655,Nagpur,Inpatient
+P226,Simran,66,F,ortho,Dr. Mehta,,,39500,NA,Good,,delhi,Discharged
+P227,Aisha Khan,twenty five,Female,Orthopedics,Dr. Iyer,,-,,,NA,9988776655,delhi,admitted
+P228,Ali,,Male,Cardio.,DR. SINGH,,,,,Exellent,,Nagpur,Inpatient
+P229,Rohit,47,female,ortho,Dr Rao,,,18186,,Exellent,9988776655,Mumbai,Inpatient
+P230,S. Patel,,female,Cardiology,Dr. Iyer,,-,,272,good,,pune,Discharged
+P231,Sonal,,M,Cardiology,Dr. Singh,29-10-23,-,missing,,,9876543210,pune,discharged
+P232,Aditya,twenty five,Female,Cardio.,Dr Mehta,18-11-23,-,42592,,Good,,Pune,Inpatient
+P233,Ali,,female,Gynae,Dr. Iyer,07-09-23,-,missing,239,,,Nagpur,Discharged
+P234,Priya,,Female,Gynae,Dr Rao,17-03-23,31/12/2023,,,,,delhi,admitted
+P235,Ananya,29,female,Gynacology,Dr. Iyer,,,,309,,976543210,nagpur,Inpatient
+P236,Aditya,twenty five,M,Cardio.,Dr. Rao,,,,,Exellent,9988776655,Pune,discharged
+P237,Aditya,twenty five,male,Dermatology,Dr Rao,,-,17506,267,NA,9876543210,Nagpur,admitted
+P238,Aisha Khan,,F,Gynacology,Dr Rao,,-,41494,NA,Exellent,,Delhi,Inpatient
+P239,Vikas,29,Male,Dermatology,Dr. Mehta,2023/11/13,,"31622,",NA,,976543210,mumbai,Discharged
+P240,Sara,,male,Cardio.,Dr. Sharma,,06/06/2023,46202,121,Excellent,,Pune,Discharged
+P241,Pooja,40,Male,Dermatology,Dr. Mehta,,,,,average,9988776655,Nagpur,discharged
+P242,Ali,24,male,Gynacology,DR. SINGH,2023/09/20,-,46401 ,NA,Good,976543210,Pune,discharged
+P243,Priya,twenty five,F,ortho,Dr. Mehta,15.04.23,04-03-23,,253,average,,delhi,discharged
+P244,Aisha Khan,26,F,Neuro,Dr. Singh,,04-11-23,20142,NA,,9876543210,Mumbai,Discharged
+P245,Reena,58,M,Orthopedics,Dr Rao,,,missing,216,,9876543210,delhi,discharged
+P246,Simran,,Male,Neuro,Dr Rao,2023/12/26,,43277,NA,good,,Mumbai,Discharged
+P247,Sara,44,Male,Dermatology,Dr. Singh,,,,,,,Pune,admitted
+P248,Neha,54,female,Cardio.,Dr. Iyer,12.03.23,30/08/2023,,,Excellent,9988776655,Mumbai,discharged
+P249,Ali,70,M,Orthopedics,Dr. Mehta,,-,,,good,,Mumbai,Discharged
+P250,Vikas,,Female,Orthopedics,Dr. Rao,17/08/2023,-,missing,,Good,9988776655,nagpur,discharged
+P251,Pooja,42,Male,Orthopedics,Dr Rao,,-,47872 ,,average,,Nagpur,Inpatient
+P252,Neha,twenty five,male,Neurology,Dr. Iyer,25.08.23,,44264,NA,NA,9988776655,Delhi,Inpatient
+P253,S. Patel,,F,Gynae,Dr. Sharma,13-05-23,10-11-23,10911,NA,,9876543210,Nagpur,admitted
+P254,Raj Sharma,,Female,Neurology,Dr Rao,,-,,,good,9876543210,pune,discharged
+P255,Reena,,Male,Gynacology,Dr. Mehta,,2023/03/25,,,Excellent,9876543210,pune,Discharged
+P256,S. Patel,twenty five,M,Cardio.,Dr Rao,,-,,298,NA,9988776655,Nagpur,Discharged
+P257,Rohit,,F,Dermatology,Dr Rao,2023/08/31,-,,,Excellent,9876543210,Pune,discharged
+P258,Neha,,Female,Orthopedics,DR. SINGH,,,missing,,average,,delhi,Discharged
+P259,Manoj,,female,Neurology,Dr. Sharma,,,9027,,,,pune,Discharged
+P260,Raj Sharma,,F,Neurology,Dr. Iyer,,,,210,Excellent,9876543210,Nagpur,admitted
+P261,Ali,39,female,Orthopedics,Dr Mehta,,04/09/2023,missing,,Exellent,,pune,discharged
+P262,Priya,,Male,Neuro,Dr. Sharma,31-12-23,,missing,,Exellent,976543210,nagpur,discharged
+P263,Aditya,31,female,Cardiology,DR. SINGH,,,28407,339,average,,Delhi,discharged
+P264,Manoj,56,Female,ortho,Dr Rao,23.05.23,18.11.23,missing,108,,,Mumbai,Inpatient
+P265,Rohit,69,Male,Neurology,Dr Mehta,2023/04/12,,,NA,average,,Nagpur,admitted
+P266,Pooja,,female,Orthopedics,Dr. Mehta,12.12.23,,,NA,Good,9876543210,delhi,Inpatient
+P267,Neha,,male,Orthopedics,Dr. Iyer,,,34331,333,average,976543210,nagpur,Inpatient
+P268,Sonal,twenty five,female,Gynae,Dr. Singh,,05/08/2023,32974₹,,NA,9988776655,Delhi,admitted
+P269,Vikas,,male,Cardio.,Dr. Mehta,,-,missing,142,good,9876543210,Pune,discharged
+P270,Rohit,twenty five,Male,Neuro,Dr. Rao,2023/11/22,,"22383,",NA,,9988776655,pune,discharged
+P271,S. Patel,38,F,Neurology,Dr. Sharma,24/05/2023,-,,290,Exellent,,pune,Discharged
+P272,Farhan,,M,Cardio.,Dr Mehta,,,46189,,NA,,mumbai,Inpatient
+P273,Reena,,female,Cardiology,Dr Rao,,-,,,NA,9988776655,pune,admitted
+P274,Rohit,,Male,Dermatology,Dr. Singh,2023/03/17,,21875,NA,average,9876543210,Nagpur,admitted
+P275,Aisha Khan,,Female,Dermatology,Dr. Singh,,,,146,good,,Nagpur,Discharged
+P276,Ananya,,Female,Neurology,Dr. Rao,,,,376,Good,976543210,nagpur,Discharged
+P277,Aisha Khan,38,M,Orthopedics,Dr. Iyer,24/06/2023,2023/12/08,14524,,good,,mumbai,discharged
+P278,Reena,58,M,Gynae,Dr. Iyer,30/05/2023,27.08.23,47410 ,,average,9988776655,delhi,discharged
+P279,Ali,twenty five,female,Gynacology,Dr. Mehta,07/07/2023,-,23599,150,Exellent,9988776655,Pune,discharged
+P280,Farhan,,Female,Orthopedics,Dr Mehta,,08.03.23,missing,,,9876543210,Nagpur,discharged
+P281,Raj Sharma,,F,cardio,Dr. Rao,,,missing,109,,,Mumbai,admitted
+P282,Reena,42,M,Orthopedics,Dr. Iyer,,-,40838,355,good,,mumbai,Inpatient
+P283,Ali,twenty five,F,cardio,Dr. Sharma,2023/05/31,,missing,,Exellent,9876543210,pune,discharged
+P284,Aditya,,Female,Cardio.,Dr. Rao,,23/06/2023,,,average,,Mumbai,Discharged
+P285,Farhan,,M,Cardio.,Dr. Rao,,-,31505,,Good,,Nagpur,Discharged
+P286,Priya,,male,Dermatology,Dr. Mehta,,,,,Good,9876543210,Nagpur,Discharged
+P287,Farhan,twenty five,Male,Neurology,Dr Rao,2023/07/19,,missing,248,Exellent,9988776655,delhi,admitted
+P288,Ali,twenty five,male,Dermatology,Dr Rao,,07.02.23,,NA,average,9988776655,nagpur,admitted
+P289,Manoj,,female,Gynae,Dr. Mehta,,,29473,155,NA,9876543210,Nagpur,discharged
+P290,Ali,,Male,cardio,Dr Mehta,,-,missing,,average,976543210,pune,Inpatient
+P291,S. Patel,twenty five,M,Orthopedics,Dr. Rao,03.02.23,2023/04/20,,,good,,pune,admitted
+P292,Priya,twenty five,Female,Cardiology,Dr. Rao,,-,missing,338,,976543210,nagpur,Inpatient
+P293,Ali,twenty five,M,Cardio.,Dr. Singh,02/09/2023,28.08.23,,,good,976543210,nagpur,discharged
+P294,Pooja,,Male,cardio,Dr. Singh,2023/09/10,,,,,,Delhi,discharged
+P295,Farhan,,Male,Dermatology,Dr. Iyer,,,39791,301,,9876543210,nagpur,Inpatient
+P296,Ali,,male,Orthopedics,Dr. Mehta,,25/12/2023,,NA,average,9876543210,delhi,Inpatient
+P297,Reena,,F,Neurology,Dr. Iyer,,04/11/2023,,188,average,,Nagpur,admitted
+P298,Priya,,F,Gynacology,DR. SINGH,,-,15976₹,378,Exellent,976543210,Delhi,Inpatient
+P299,Rohit,65,male,Gynacology,Dr Mehta,,2023/03/15,25340,NA,NA,976543210,Nagpur,admitted
+P300,Manoj,66,Female,Gynae,Dr. Sharma,10/03/2023,,,,Exellent,9988776655,Pune,Inpatient
+P301,Neha,,Male,Gynae,Dr Mehta,,-,missing,,Good,9876543210,delhi,admitted
+P302,Reena,,Male,cardio,Dr Rao,,,28446 ,,NA,9876543210,nagpur,admitted
+P303,Raj Sharma,,F,Orthopedics,Dr. Sharma,,,38749 ,NA,Good,9876543210,Pune,admitted
+P304,Pooja,twenty five,male,Dermatology,Dr. Mehta,07-12-23,-,,,Good,9876543210,delhi,Inpatient
+P305,S. Patel,,female,Neurology,Dr Rao,2023/06/07,2023/07/29,,NA,Excellent,9988776655,pune,admitted
+P306,Ali,twenty five,F,Neurology,DR. SINGH,,,missing,,good,,Delhi,discharged
+P307,Reena,twenty five,Male,Gynae,Dr. Mehta,,,43385,,Excellent,9876543210,pune,discharged
+P308,Sonal,47,male,Orthopedics,Dr Rao,,11/06/2023,42336₹,NA,average,,delhi,Discharged
+P309,Neha,,M,Gynacology,Dr. Singh,,,17145₹,,average,976543210,nagpur,Discharged
+P310,Sara,,Male,Gynacology,Dr. Singh,,2023/04/11,10445,NA,Excellent,9988776655,mumbai,discharged
+P311,Sara,twenty five,M,Dermatology,Dr. Singh,,-,,,average,976543210,Delhi,admitted
+P312,Simran,,female,Gynae,Dr. Mehta,,26.12.23,missing,NA,good,976543210,delhi,admitted
+P313,Ali,,male,Dermatology,Dr. Sharma,,-,,NA,Excellent,9988776655,delhi,admitted
+P314,Reena,,M,Dermatology,Dr. Iyer,28/02/2023,-,36775,150,Excellent,,Nagpur,Discharged
+P315,Raj Sharma,57,M,Cardiology,Dr. Rao,11/10/2023,,48984,NA,NA,9988776655,delhi,Discharged
+P316,Neha,twenty five,Male,ortho,Dr. Iyer,,,,,Excellent,9988776655,mumbai,admitted
+P317,Sonal,,female,Neurology,Dr. Rao,23.03.23,,37954,,NA,9988776655,pune,Inpatient
+P318,Rohit,,Female,Orthopedics,Dr Mehta,,,15683 ,146,,9876543210,Nagpur,Discharged
+P319,Farhan,42,female,cardio,Dr Mehta,,26.10.23,23915₹,,average,9988776655,Nagpur,Discharged
+P320,Sonal,,Female,cardio,Dr. Singh,29.05.23,10/11/2023,missing,,,,delhi,discharged
+P321,Ananya,,Female,Neurology,DR. SINGH,,2023/08/09,,175,Good,,Delhi,discharged
+P322,Raj Sharma,,F,Orthopedics,Dr. Mehta,,2023/12/06,26082,280,Excellent,,Mumbai,Discharged
+P323,Meena,twenty five,M,Gynae,Dr Rao,,-,43068,221,NA,9876543210,nagpur,discharged
+P324,Simran,twenty five,F,Gynae,Dr. Singh,,22.03.23,10336,NA,,9988776655,Delhi,admitted
+P325,Meena,twenty five,F,Cardiology,Dr. Sharma,22/02/2023,-,21318,109,good,9876543210,Nagpur,admitted
+P326,Sara,,Male,Cardiology,Dr. Iyer,,,,NA,Good,,pune,Discharged
+P327,Priya,70,F,Neuro,Dr. Rao,13/07/2023,28/11/2023,,194,,,Pune,Inpatient
+P328,Aditya,30,M,ortho,Dr. Rao,2023/06/03,,,330,NA,9876543210,Pune,Inpatient
+P329,Rohit,24,Female,ortho,Dr Rao,,,8302,,good,,pune,admitted
+P330,S. Patel,,female,Dermatology,Dr. Sharma,,-,22829,NA,good,9876543210,nagpur,discharged
+P331,Aisha Khan,,female,Cardio.,Dr Mehta,01-07-23,-,13261,228,NA,9876543210,mumbai,discharged
+P332,Aditya,30,male,Dermatology,Dr. Sharma,,,23111,NA,,9876543210,pune,Inpatient
+P333,Aditya,,Female,Gynacology,Dr Mehta,,,36685,,good,,pune,discharged
+P334,Aisha Khan,36,M,Orthopedics,Dr. Rao,,,29528,299,average,9876543210,Pune,discharged
+P335,Ananya,35,female,cardio,Dr. Singh,,,,,good,9988776655,mumbai,Discharged
+P336,Reena,,male,Dermatology,Dr Rao,,,,,NA,,nagpur,discharged
+P337,Simran,twenty five,male,Gynacology,Dr Rao,,07.01.23,35955,,,9988776655,mumbai,Inpatient
+P338,Rohit,49,female,Orthopedics,Dr. Rao,,-,17466,,average,,Mumbai,Inpatient
+P339,Manoj,70,female,Gynae,Dr. Sharma,,-,missing,,NA,,nagpur,discharged
+P340,Vikas,twenty five,female,Gynacology,Dr. Singh,,,21847₹,NA,Exellent,976543210,Delhi,admitted
+P341,Neha,twenty five,M,Cardio.,Dr. Sharma,17.08.23,,14334,,average,,Mumbai,admitted
+P342,Neha,,female,Cardio.,Dr. Mehta,,,,,Exellent,,mumbai,discharged
+P343,Aditya,,M,Neuro,Dr. Mehta,,-,44387 ,,NA,9876543210,Pune,Discharged
+P344,Simran,64,male,Cardio.,Dr Mehta,,,,,Excellent,,pune,Discharged
+P345,S. Patel,57,F,ortho,DR. SINGH,,-,,,NA,,nagpur,Discharged
+P346,Meena,45,Female,Neurology,Dr Rao,,,24864,,NA,9988776655,delhi,Inpatient
+P347,Manoj,54,male,Gynae,Dr. Mehta,06/02/2023,,,NA,,9988776655,delhi,Inpatient
+P348,Ali,33,Female,Cardiology,Dr. Rao,2023/08/31,-,missing,NA,Exellent,,mumbai,Discharged
+P349,Sara,,M,Cardiology,Dr. Mehta,,-,45923,,,9988776655,Nagpur,admitted
+P350,Sara,twenty five,female,Cardio.,Dr. Iyer,,08.03.23,20299,,,9876543210,Pune,admitted
+P351,Neha,twenty five,female,Dermatology,Dr. Rao,,,,,NA,9988776655,Nagpur,admitted
+P352,Sonal,68,male,Neuro,Dr Rao,,-,missing,NA,average,9988776655,Delhi,Discharged
+P353,Aditya,42,female,Neurology,Dr. Singh,03/02/2023,2023/12/03,missing,,Exellent,9988776655,pune,discharged
+P354,Vikas,,female,ortho,Dr. Rao,23/04/2023,17-08-23,missing,NA,average,976543210,delhi,Inpatient
+P355,Rohit,twenty five,male,Gynae,DR. SINGH,,,missing,NA,,9988776655,Pune,discharged
+P356,Rohit,,M,cardio,Dr. Rao,,13-01-23,,,NA,,Delhi,Inpatient
+P357,Manoj,,female,Cardio.,Dr. Mehta,24-07-23,2023/12/20,missing,,Excellent,9988776655,nagpur,admitted
+P358,S. Patel,twenty five,female,Orthopedics,Dr Mehta,,,missing,,Excellent,,Nagpur,discharged
+P359,Meena,,female,Dermatology,Dr Mehta,06/03/2023,,missing,239,good,9876543210,delhi,discharged
+P360,Vikas,,Male,ortho,Dr. Singh,,-,,,,9876543210,nagpur,Discharged
+P361,Raj Sharma,,F,Cardio.,Dr Mehta,,,37406 ,,Good,9876543210,Mumbai,admitted
+P362,Ananya,,Female,ortho,Dr Rao,,08.02.23,,NA,Exellent,,nagpur,admitted
+P363,Farhan,42,male,Gynacology,Dr. Mehta,22-08-23,,42857₹,NA,Exellent,,Pune,Inpatient
+P364,Farhan,48,Female,Cardiology,Dr Mehta,,,,231,average,,Mumbai,Inpatient
+P365,Reena,,Male,Dermatology,Dr. Rao,11-07-23,2023/05/16,40193₹,289,Good,9988776655,nagpur,Discharged
+P366,Reena,,female,Orthopedics,Dr. Singh,,-,missing,,Excellent,9988776655,mumbai,discharged
+P367,Manoj,,Female,ortho,Dr. Mehta,06/07/2023,-,,,Exellent,,nagpur,Inpatient
+P368,Meena,,Male,Dermatology,Dr. Sharma,29-07-23,-,,384,,,mumbai,discharged
+P369,S. Patel,,male,ortho,Dr. Rao,,,13809₹,,NA,9876543210,Pune,Inpatient
+P370,Vikas,,Female,Gynacology,Dr. Mehta,2023/09/12,-,,347,Exellent,976543210,delhi,admitted
+P371,Ananya,70,female,Orthopedics,Dr. Singh,,-,,227,NA,,nagpur,admitted
+P372,Simran,41,M,ortho,Dr Rao,2023/01/08,2023/09/09,48156₹,NA,average,9876543210,mumbai,Inpatient
+P373,Farhan,,female,Cardiology,DR. SINGH,,,35568,NA,Exellent,,nagpur,admitted
+P374,Raj Sharma,21,female,Dermatology,DR. SINGH,,,41740₹,108,average,,Pune,admitted
+P375,Farhan,57,Male,Gynacology,Dr. Rao,,30-04-23,missing,NA,good,9988776655,delhi,Discharged
+P376,Raj Sharma,59,male,Gynacology,Dr. Mehta,,05-10-23,35007,221,Exellent,,Mumbai,admitted
+P377,Aisha Khan,twenty five,male,Cardio.,Dr. Sharma,2023/02/15,-,22846,NA,Good,9876543210,nagpur,discharged
+P378,Ali,twenty five,female,Gynacology,Dr Rao,,28/10/2023,,NA,,9988776655,Delhi,Discharged
+P379,Neha,,M,cardio,Dr. Singh,,,,293,Exellent,976543210,pune,admitted
+P380,Farhan,,F,Orthopedics,Dr Mehta,,2023/02/20,,,,,nagpur,Inpatient
+P381,Simran,,Male,cardio,Dr. Rao,2023/12/14,-,missing,NA,good,9988776655,Delhi,admitted
+P382,Neha,70,Female,Orthopedics,Dr Mehta,13.03.23,29.08.23,15759,204,good,976543210,pune,Inpatient
+P383,S. Patel,,M,Neurology,Dr. Rao,2023/07/27,,,,Exellent,,Nagpur,Inpatient
+P384,Aditya,,Male,Cardio.,Dr Rao,,2023/05/01,,,average,9876543210,mumbai,Discharged
+P385,Raj Sharma,twenty five,Male,Neuro,Dr. Iyer,26/10/2023,,,,Good,,delhi,discharged
+P386,Manoj,,F,ortho,Dr Rao,,,36448,,good,,pune,Inpatient
+P387,Rohit,,M,Cardiology,Dr. Mehta,,-,,,NA,,delhi,Inpatient
+P388,S. Patel,twenty five,Female,Gynae,Dr. Mehta,,,,,NA,976543210,pune,discharged
+P389,Simran,,M,Orthopedics,Dr. Iyer,,21/09/2023,,,good,9876543210,Nagpur,admitted
+P390,Aditya,,male,Neurology,Dr. Iyer,23.03.23,-,missing,286,Exellent,976543210,Nagpur,admitted
+P391,Vikas,59,Female,Gynae,Dr Mehta,13/11/2023,,missing,283,Excellent,,Mumbai,Discharged
+P392,Raj Sharma,,male,ortho,Dr. Iyer,,2023/12/30,,,,,Pune,discharged
+P393,Aditya,,F,Cardio.,Dr. Singh,,,,349,,,Pune,Inpatient
+P394,Meena,twenty five,Female,Dermatology,Dr. Sharma,2023/10/13,26-09-23,14074,NA,Good,,Nagpur,admitted
+P395,Simran,,M,ortho,Dr. Mehta,,-,,,Excellent,976543210,delhi,Inpatient
+P396,Ananya,62,female,Cardiology,Dr. Mehta,,,missing,,,,delhi,admitted
+P397,Neha,,female,Gynae,Dr. Rao,,-,22587,NA,Exellent,9876543210,Pune,admitted
+P398,Ananya,,Male,cardio,Dr Mehta,,-,41086,,good,,mumbai,admitted
+P399,Ananya,,male,Neurology,Dr. Iyer,15-07-23,,13518,,,9876543210,delhi,admitted
+P400,Ali,,female,Orthopedics,DR. SINGH,,-,24740,,Excellent,,nagpur,Discharged
+P401,Ali,twenty five,female,ortho,Dr. Iyer,,,,,good,9876543210,Nagpur,admitted
+P402,Sonal,twenty five,F,Gynacology,Dr. Rao,,,,NA,,9876543210,Mumbai,Inpatient
+P403,Ananya,twenty five,male,Gynacology,Dr. Mehta,2023/11/22,,,,Excellent,,mumbai,discharged
+P404,Pooja,,male,Cardio.,Dr Mehta,14-01-23,,,224,good,9876543210,Pune,Inpatient
+P405,Raj Sharma,,Male,Dermatology,Dr. Singh,,,23881,,Good,976543210,Mumbai,Discharged
+P406,Manoj,,male,Neuro,Dr. Mehta,,-,,,NA,9876543210,Mumbai,Inpatient
+P407,Meena,twenty five,M,ortho,Dr Mehta,,,,NA,good,,Delhi,Discharged
+P408,Farhan,,male,Neurology,DR. SINGH,,,26078₹,204,NA,976543210,nagpur,admitted
+P409,Aditya,twenty five,Female,ortho,DR. SINGH,31/05/2023,-,missing,NA,good,,mumbai,admitted
+P410,Aisha Khan,,Male,Dermatology,Dr. Iyer,,-,missing,NA,Excellent,976543210,pune,admitted
+P411,Simran,,Male,Orthopedics,Dr. Mehta,03/10/2023,27/10/2023,20693,,Exellent,9988776655,Delhi,discharged
+P412,Ananya,twenty five,Female,Gynae,Dr Mehta,,,,NA,average,9988776655,pune,admitted
+P413,Rohit,twenty five,female,cardio,DR. SINGH,20-08-23,,,NA,Good,9988776655,Mumbai,admitted
+P414,Aditya,46,F,Dermatology,Dr. Singh,,,9940,,average,976543210,delhi,admitted
+P415,S. Patel,,male,Cardiology,Dr. Mehta,,07/02/2023,33095,,Good,,Nagpur,discharged
+P416,S. Patel,,M,Gynae,Dr. Singh,2023/06/28,,"22194,",,average,9876543210,Pune,admitted
+P417,Rohit,,F,Neuro,Dr. Mehta,,-,,,Excellent,9988776655,nagpur,Discharged
+P418,Simran,56,Female,Gynacology,Dr. Sharma,2023/11/28,-,,NA,Exellent,976543210,nagpur,Discharged
+P419,Meena,twenty five,male,Dermatology,Dr. Rao,,-,,NA,good,,nagpur,discharged
+P420,Farhan,,Female,Cardio.,Dr. Iyer,,-,,NA,Exellent,,mumbai,Inpatient
+P421,S. Patel,,Male,cardio,Dr Rao,14.02.23,,22282,NA,NA,976543210,mumbai,discharged
+P422,Aisha Khan,twenty five,male,Orthopedics,Dr. Sharma,,-,36602,,average,9988776655,nagpur,Discharged
+P423,Raj Sharma,,M,cardio,Dr. Rao,30/11/2023,,14985 ,,Good,9876543210,pune,Discharged
+P424,Neha,22,Male,Dermatology,Dr Rao,,,"12064,",,Excellent,9988776655,mumbai,Discharged
+P425,Aisha Khan,,female,Cardio.,Dr Mehta,,,,344,Good,,Mumbai,admitted
+P426,Sara,,Male,Gynae,Dr Mehta,,-,21777₹,,Exellent,976543210,Delhi,admitted
+P427,S. Patel,22,Female,Orthopedics,DR. SINGH,,,,239,Excellent,9988776655,pune,discharged
+P428,S. Patel,,Male,Cardiology,DR. SINGH,,,"24254,",129,Good,976543210,Nagpur,admitted
+P429,Sara,41,female,Gynae,DR. SINGH,,,31429,,Good,,Mumbai,Discharged
+P430,S. Patel,,male,ortho,Dr. Mehta,21-10-23,-,missing,175,average,9988776655,delhi,Inpatient
+P431,Ali,twenty five,M,Orthopedics,Dr. Rao,,-,missing,,,9876543210,Nagpur,Discharged
+P432,S. Patel,,male,Gynae,Dr. Sharma,10.03.23,12.07.23,missing,,,976543210,Mumbai,Discharged
+P433,Manoj,,female,Orthopedics,DR. SINGH,11/01/2023,05-08-23,,NA,Good,976543210,delhi,Discharged
+P434,Ananya,,M,Dermatology,DR. SINGH,,,missing,,,,pune,Discharged
+P435,Raj Sharma,,Female,cardio,Dr. Rao,2023/12/28,,missing,,Excellent,,Nagpur,admitted
+P436,S. Patel,,male,Neurology,DR. SINGH,,,23531,240,,9876543210,delhi,Discharged
+P437,Aisha Khan,,F,cardio,DR. SINGH,28.10.23,,,NA,Excellent,9988776655,Mumbai,admitted
+P438,Sonal,,male,Orthopedics,Dr Mehta,,-,,NA,NA,,delhi,discharged
+P439,Ali,,M,Neuro,Dr Rao,,,,,Good,,Delhi,Discharged
+P440,Neha,,F,Neuro,Dr. Rao,,08-12-23,,,,9876543210,mumbai,admitted
+P441,Pooja,44,Female,Gynae,Dr. Sharma,,,missing,,,976543210,delhi,discharged
+P442,Raj Sharma,twenty five,Female,Gynae,DR. SINGH,2023/07/22,03.01.23,,346,good,,delhi,admitted
+P443,Ali,,M,Gynae,Dr. Rao,,,44095,275,Exellent,,Mumbai,admitted
+P444,Simran,,Female,Neuro,Dr. Mehta,,,,,Good,,Pune,discharged
+P445,Raj Sharma,,male,Neuro,Dr. Rao,25.05.23,2023/05/03,38228,,NA,976543210,Nagpur,Discharged
+P446,Farhan,,F,Dermatology,Dr Mehta,,05.03.23,40405,,good,9988776655,nagpur,Discharged
+P447,Manoj,22,M,ortho,Dr. Rao,,,44137,250,Excellent,,delhi,discharged
+P448,Rohit,,Female,Dermatology,Dr. Rao,,-,missing,,good,9988776655,nagpur,admitted
+P449,Meena,57,Female,Dermatology,Dr. Rao,,,,270,Excellent,,nagpur,discharged
+P450,Priya,48,male,ortho,Dr. Singh,28-06-23,03.11.23,40594,106,,,nagpur,discharged
+P451,S. Patel,,M,ortho,Dr. Mehta,,,29866,,average,,Nagpur,Inpatient
+P452,Sonal,,Female,Cardio.,Dr. Iyer,,07-09-23,missing,241,average,976543210,nagpur,discharged
+P453,Aisha Khan,twenty five,M,Neuro,Dr. Iyer,,,,NA,Excellent,9988776655,delhi,admitted
+P454,Simran,,Male,cardio,Dr. Sharma,27.11.23,-,,,good,,Pune,discharged
+P455,Manoj,,F,Neuro,Dr. Singh,,-,missing,249,good,976543210,Pune,Inpatient
+P456,Ali,,Male,Orthopedics,Dr Rao,08/11/2023,10-05-23,,,Good,,delhi,discharged
+P457,S. Patel,69,female,Gynacology,Dr. Rao,,,missing,NA,good,9876543210,Delhi,admitted
+P458,Meena,25,Female,Neuro,Dr Mehta,04/11/2023,09/10/2023,missing,,,,Mumbai,discharged
+P459,Raj Sharma,,Male,ortho,Dr. Rao,,,20169,,good,9988776655,delhi,discharged
+P460,Pooja,62,Male,Gynae,Dr Rao,,,29610,196,Exellent,9988776655,Mumbai,Inpatient
+P461,Ali,,Male,Orthopedics,Dr. Rao,,,"47433,",NA,NA,976543210,Nagpur,Inpatient
+P462,Raj Sharma,31,female,Orthopedics,Dr. Iyer,,24/06/2023,missing,,Good,9876543210,Nagpur,admitted
+P463,Sara,twenty five,F,Orthopedics,Dr. Singh,15.02.23,,27027,275,Exellent,976543210,delhi,discharged
+P464,Sara,twenty five,Female,Cardiology,Dr. Iyer,,,40226,387,average,,Pune,Discharged
+P465,Ali,twenty five,male,Cardiology,DR. SINGH,13/07/2023,,,NA,Good,9988776655,delhi,Discharged
+P466,S. Patel,,male,cardio,DR. SINGH,,27-10-23,missing,,average,9988776655,mumbai,Discharged
+P467,S. Patel,60,Male,Cardiology,Dr. Singh,,-,"42606,",,,,pune,Discharged
+P468,Pooja,,male,Orthopedics,Dr Rao,07.06.23,26.10.23,18934,,average,,nagpur,discharged
+P469,Priya,,F,Dermatology,Dr Mehta,06/06/2023,,,373,Exellent,9876543210,pune,Discharged
+P470,Aisha Khan,twenty five,M,Cardio.,Dr Rao,2023/10/15,,,138,,,Mumbai,discharged
+P471,Vikas,twenty five,Female,Neuro,DR. SINGH,,,,,good,9988776655,Mumbai,Inpatient
+P472,Raj Sharma,twenty five,male,Dermatology,DR. SINGH,,,missing,,NA,,pune,Inpatient
+P473,Ali,,female,ortho,Dr. Singh,,14.10.23,"34248,",,Excellent,,Mumbai,admitted
+P474,Neha,twenty five,Male,cardio,Dr Rao,,,,397,good,,Pune,Discharged
+P475,Priya,,female,Orthopedics,Dr. Mehta,16/10/2023,,29207,191,average,9876543210,Mumbai,Discharged
+P476,Reena,48,Male,Cardio.,Dr Rao,28/03/2023,-,,255,,,Nagpur,Discharged
+P477,Rohit,59,F,Gynacology,DR. SINGH,,,missing,,NA,,Mumbai,Discharged
+P478,Manoj,,F,Gynae,Dr Rao,,2023/04/11,,,NA,,Nagpur,Discharged
+P479,Reena,,F,Cardio.,Dr. Mehta,03/11/2023,,,,good,,delhi,Inpatient
+P480,Simran,56,F,cardio,Dr. Sharma,,-,,165,,9876543210,Pune,Discharged
+P481,Vikas,twenty five,Female,Gynacology,Dr. Sharma,,,,218,average,9988776655,delhi,discharged
+P482,Simran,,M,Cardio.,Dr. Sharma,,21-01-23,missing,,Exellent,,Delhi,Discharged
+P483,Vikas,23,Male,Neuro,Dr. Singh,07-10-23,-,missing,,good,9876543210,Delhi,Discharged
+P484,Sonal,34,male,Orthopedics,Dr. Sharma,,,46588 ,,good,9988776655,delhi,discharged
+P485,Sonal,66,Male,Gynacology,Dr Rao,,-,10570,353,Exellent,9988776655,pune,discharged
+P486,Rohit,,Male,Cardio.,Dr Rao,,2023/06/04,24939,103,Good,976543210,Nagpur,discharged
+P487,Meena,,F,Neuro,Dr Rao,,,"24432,",,Good,976543210,Delhi,admitted
+P488,Sara,,female,Gynae,Dr Mehta,13-05-23,-,missing,296,average,976543210,Delhi,discharged
+P489,Priya,,Female,Orthopedics,Dr. Rao,,,missing,152,Good,,Mumbai,Inpatient
+P490,Manoj,,Female,Orthopedics,Dr. Singh,,-,"21511,",NA,NA,,Mumbai,Discharged
+P491,Rohit,twenty five,male,Gynacology,DR. SINGH,,,,,,976543210,Nagpur,admitted
+P492,Pooja,,female,Dermatology,Dr. Rao,,,,,NA,976543210,Pune,admitted
+P493,Raj Sharma,60,Male,Neuro,Dr. Mehta,,,,208,good,9876543210,Delhi,Inpatient
+P494,Meena,,M,Gynae,Dr. Iyer,,30/04/2023,11529,389,NA,976543210,pune,admitted
+P495,Sara,34,F,cardio,Dr Mehta,,,missing,373,average,9876543210,Delhi,Discharged
+P496,Farhan,,male,Dermatology,Dr. Iyer,17-10-23,14/01/2023,25846,,Good,9876543210,Delhi,discharged
+P497,Aisha Khan,32,female,Dermatology,Dr. Sharma,,06/11/2023,19882,NA,Good,9988776655,Pune,Inpatient
+P498,Sara,,M,Cardio.,Dr Rao,,,,NA,Exellent,9876543210,Nagpur,Inpatient
+P499,Rohit,,Female,cardio,Dr. Rao,,,missing,NA,good,,Pune,admitted
+P500,Reena,,female,Neurology,Dr. Singh,,-,43358,306,Good,9876543210,pune,Discharged
+P501,Farhan,28,male,Dermatology,Dr. Singh,,-,34150,237,Exellent,9876543210,Mumbai,discharged
+P502,Reena,,Male,Cardio.,Dr. Singh,,21/08/2023,13241,,NA,,mumbai,Discharged
+P503,Neha,61,female,Dermatology,Dr. Mehta,18-04-23,11/07/2023,missing,150,Exellent,,Pune,discharged
+P504,Ali,twenty five,female,Neuro,DR. SINGH,,,missing,358,NA,976543210,Nagpur,discharged
+P505,Reena,,M,Gynae,Dr. Rao,13.01.23,-,44608 ,343,Good,976543210,pune,admitted
+P506,Reena,,M,Orthopedics,Dr. Singh,,,10878,NA,good,9988776655,Mumbai,Discharged
+P507,Raj Sharma,twenty five,male,Neuro,Dr. Sharma,18-09-23,,44782,,,,Mumbai,Discharged
+P508,Pooja,,Female,Gynacology,Dr. Singh,,,,221,Exellent,9876543210,mumbai,admitted
+P509,S. Patel,,M,Gynae,Dr Mehta,24.01.23,,,NA,good,976543210,delhi,Inpatient
+P510,Manoj,,female,Dermatology,Dr. Mehta,,2023/04/12,,,Good,9876543210,Delhi,Discharged
+P511,Sonal,41,F,Gynae,Dr. Singh,,,38934,,good,976543210,Mumbai,discharged
+P512,Neha,,Male,Neurology,Dr. Singh,,,,NA,Good,976543210,Delhi,admitted
+P513,Ali,twenty five,Male,Neurology,DR. SINGH,12.01.23,2023/02/21,,146,average,9988776655,Pune,Discharged
+P514,S. Patel,twenty five,male,Neurology,DR. SINGH,,-,missing,,Good,9988776655,delhi,admitted
+P515,Ananya,twenty five,M,Neurology,DR. SINGH,13/04/2023,-,26686,267,good,,Nagpur,admitted
+P516,Ali,twenty five,Male,Gynae,Dr. Sharma,,,missing,NA,Exellent,9876543210,Delhi,Discharged
+P517,Farhan,twenty five,male,Cardiology,Dr. Singh,,21-11-23,missing,152,good,,Mumbai,Inpatient
+P518,Meena,twenty five,F,Gynae,DR. SINGH,,2023/12/08,37901,,,9876543210,mumbai,Inpatient
+P519,Neha,twenty five,Female,Dermatology,Dr Rao,,2023/09/29,26986,,Exellent,,Nagpur,Inpatient
+P520,Reena,,female,Dermatology,Dr. Iyer,18-10-23,03.02.23,47740,NA,Excellent,976543210,delhi,Inpatient
+P521,Pooja,28,F,Cardio.,DR. SINGH,,,"32219,",,NA,,nagpur,Discharged
+P522,Reena,,female,Dermatology,Dr. Rao,,,,,Excellent,9988776655,Mumbai,Discharged
+P523,Manoj,,M,Dermatology,Dr. Singh,,17.08.23,,NA,average,9988776655,mumbai,admitted
+P524,Ananya,21,Female,Orthopedics,Dr. Singh,06-03-23,,"36662,",319,Good,,Delhi,admitted
+P525,Manoj,,Female,Gynacology,Dr Mehta,,,,116,NA,9988776655,Delhi,discharged
+P526,Farhan,,Male,ortho,Dr. Iyer,,16/08/2023,missing,325,NA,976543210,delhi,admitted
+P527,Aisha Khan,41,F,Gynae,Dr. Iyer,,2023/08/20,,,Good,976543210,Mumbai,admitted
+P528,Farhan,,M,Neuro,Dr. Mehta,16/12/2023,,missing,111,Exellent,976543210,delhi,Inpatient
+P529,Reena,,Female,Neuro,Dr. Singh,,,"48885,",,Good,,Delhi,discharged
+P530,Reena,26,F,Gynae,Dr. Sharma,,25-07-23,"40724,",,NA,,Delhi,admitted
+P531,Meena,,male,Dermatology,Dr. Iyer,2023/12/02,,,NA,good,,Pune,Inpatient
+P532,Pooja,68,Male,Cardio.,Dr. Singh,,,missing,NA,average,,pune,discharged
+P533,Manoj,,F,Gynacology,Dr Rao,,2023/11/29,,NA,Excellent,9988776655,mumbai,discharged
+P534,S. Patel,21,Female,cardio,Dr Rao,,-,"35374,",191,average,9876543210,mumbai,admitted
+P535,Reena,,Male,Gynae,DR. SINGH,03.04.23,31-08-23,,NA,,9876543210,mumbai,discharged
+P536,Ananya,,female,Cardio.,Dr Rao,08/04/2023,22-03-23,,259,good,,Nagpur,admitted
+P537,Rohit,twenty five,female,Cardio.,Dr. Singh,,,,,good,9876543210,Mumbai,discharged
+P538,Simran,34,female,Neurology,Dr. Iyer,,-,,327,average,9876543210,Nagpur,discharged
+P539,S. Patel,,female,Gynacology,Dr Rao,,,missing,,Excellent,9988776655,Nagpur,Inpatient
+P540,Aditya,,male,Gynae,Dr. Iyer,,,,347,Exellent,,Nagpur,Inpatient
+P541,Aditya,,Female,cardio,Dr. Iyer,,-,20315,,NA,,Nagpur,Inpatient
+P542,Rohit,,female,Cardiology,Dr. Mehta,2023/09/07,-,30009,NA,NA,,Pune,discharged
+P543,S. Patel,twenty five,male,Dermatology,Dr. Singh,,07/06/2023,,NA,average,9988776655,Pune,Discharged
+P544,Pooja,20,male,Dermatology,Dr Rao,,-,,,Excellent,9876543210,Pune,Inpatient
+P545,Vikas,twenty five,male,Gynacology,Dr Rao,24-04-23,,missing,312,Good,9988776655,Delhi,admitted
+P546,Aisha Khan,,F,Cardiology,Dr. Iyer,2023/09/16,,,,good,9876543210,Pune,Discharged
+P547,Pooja,twenty five,male,Gynae,Dr. Singh,,2023/01/30,16361,,Excellent,9988776655,Nagpur,admitted
+P548,Raj Sharma,twenty five,F,cardio,Dr. Rao,2023/11/09,,missing,NA,Good,,Mumbai,Inpatient
+P549,Meena,,M,Neurology,Dr Mehta,24/01/2023,,15513₹,NA,average,,delhi,Discharged
