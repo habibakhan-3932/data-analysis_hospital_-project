@@ -30,4 +30,5 @@ Each chart was designed using Matplotlib, focusing on clarity and interpretabili
 • Departments like Cardiology and Orthopedics had the highest patient volume.
 • Cities like Mumbai and Pune contributed the most patients.
 • Average bill amounts varied significantly across departments, highlighting possible differences in treatment costs.
-->#some row are ntentionally kept empty to maintain the originality and accuracy of the dataset.
+
+->#some row are intentionally kept empty to maintain the originality and accuracy of the dataset.
